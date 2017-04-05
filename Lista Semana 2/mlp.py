@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-debug = True
+debug = False
 
 def sigmoid(u):
     return 1 / (1 + math.exp(-u))
@@ -78,7 +78,13 @@ class Camada(object):
 
 class MultiLayerPerceptron(object):
 
-    def __init__(self, neuronios_por_camada, pesos, taxa_aprendizagem, desejados, epocas, precisao):
+    def __init__(self, neuronios_por_camada, taxa_aprendizagem, desejados, epocas, precisao, pesos=None):
+        if not pesos:
+            pesos = []
+            for i in range(len(neuronios_por_camada)):
+                ## Adiciona pesos aleatórios de acordo com o número de neurônios especificados, adicionando mais um peso para o bias
+                pesos_da_camada = (2 * np.random.random((neuronios_por_camada[i], neuronios_por_camada[i]+1)) - 1) * 0.25
+                pesos.append(pesos_da_camada)
         self.epocas = epocas
         self.precisao = precisao
         self.camadas = []
@@ -143,7 +149,7 @@ class MultiLayerPerceptron(object):
             erros.append(neuronio_saida.calcular_erro())
         return np.average(erros)
 
-    def treinar(self):
+    def treinar(self, plot=True):
         erro_atual = 0
         erro_anterior = 0
         variacao_erro_atingida = False
@@ -161,20 +167,31 @@ class MultiLayerPerceptron(object):
             variacao_erro_atingida = variacao_erro <= self.precisao
             if not variacao_erro_atingida:
                 epoca += 1
-        plt.show()
+        if plot:
+            plt.show()
 
 
-mlp = MultiLayerPerceptron(
-    neuronios_por_camada=[2,2],
-    # Pesos e bias da camada hidden
-    pesos=[[np.array([0.35, 0.15, 0.2]), np.array([0.35, 0.25, 0.3])],
-           [np.array([0.6, 0.4, 0.45]), np.array([0.6, 0.5, 0.55])]],
-    # taxa de aprendizagem e saidas desejáveis
-    taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
-    epocas=1000, precisao=1e-7
-)
-mlp.definir_entradas(np.array([0.05, 0.1]))
-
-debug = False
-
-mlp.treinar()
+# mlp = MultiLayerPerceptron(
+#     neuronios_por_camada=[2,2],
+#     pesos=[[np.array([0.35, 0.15, 0.2]), np.array([0.35, 0.25, 0.3])],
+#            [np.array([0.6, 0.4, 0.45]), np.array([0.6, 0.5, 0.55])]],
+#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
+#     epocas=1, precisao=1e-7
+# )
+# mlp = MultiLayerPerceptron(
+#     neuronios_por_camada=[2,2],
+#     pesos=[[np.zeros(3), np.zeros(3)],
+#            [np.zeros(3), np.zeros(3)]],
+#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
+#     epocas=1000, precisao=1e-7
+# )
+# mlp = MultiLayerPerceptron(
+#     neuronios_por_camada=[2,2],
+#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
+#     epocas=1, precisao=1e-7
+# )
+# mlp.definir_entradas(np.array([0.05, 0.1]))
+#
+# debug = False
+#
+# mlp.treinar()
