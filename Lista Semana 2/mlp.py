@@ -30,8 +30,9 @@ class Neuronio(object):
 
     def propagar_sinal(self):
         net_neuronio = np.dot(self.entradas, self.pesos)
+        log("Potencial de ativação do neurônio", self.id, ": ", net_neuronio)
         self.saida = sigmoid(net_neuronio)
-        log(self.id, ": ", self.saida)
+        log("Saída do neurônio", self.id, ": ", self.saida)
         return self.saida
 
     def calcular_derivada_erro_funcao_saida(self):
@@ -78,7 +79,10 @@ class Camada(object):
 
 class MultiLayerPerceptron(object):
 
-    def __init__(self, neuronios_por_camada, taxa_aprendizagem, desejados, epocas, precisao, pesos=None):
+    def __init__(self, neuronios_por_camada, entradas, desejados, epocas, taxa_aprendizagem, precisao, pesos=None, debug_training=False, plot=True):
+        global debug
+        debug = debug_training
+        self.plot = plot
         if not pesos:
             pesos = []
             for i in range(len(neuronios_por_camada)):
@@ -98,6 +102,7 @@ class MultiLayerPerceptron(object):
                     neuronio = Neuronio(indice=indice, camada=indice_camada, pesos=pesos[indice_camada][indice], taxa_aprendizagem=taxa_aprendizagem)
                 camada.neuronios[indice] = neuronio
             self.camadas.append(camada)
+        self.definir_entradas(np.array(entradas))
 
     def definir_entradas(self, entradas):
         camada_entrada = self.camadas[0]
@@ -149,49 +154,25 @@ class MultiLayerPerceptron(object):
             erros.append(neuronio_saida.calcular_erro())
         return np.average(erros)
 
-    def treinar(self, plot=True):
+    def treinar(self):
         erro_atual = 0
         erro_anterior = 0
         variacao_erro_atingida = False
         epoca = 0
+        fig, axis = plt.subplots()
+        axis.set_xlabel('Épocas')
         while (epoca < self.epocas and not variacao_erro_atingida):
-            print("========== Época " + str(epoca + 1) + " ==========")
+            print("============================ Época " + str(epoca + 1) + " ================================")
             self.propagar_sinal()
             self.retro_propagar_sinal()
             erro_anterior = erro_atual
             erro_atual = self.calcular_erro()
-            plt.plot(epoca + 1, erro_atual, marker='.')
+            plt.plot(epoca + 1, erro_atual, marker='.', )
             print("Erro quadrático médio depois de", epoca + 1, "época(s)", erro_atual)
             variacao_erro = abs(erro_atual - erro_anterior)
             print("Delta do erro depois de", epoca + 1, "época(s)", variacao_erro)
             variacao_erro_atingida = variacao_erro <= self.precisao
             if not variacao_erro_atingida:
                 epoca += 1
-        if plot:
+        if self.plot:
             plt.show()
-
-
-# mlp = MultiLayerPerceptron(
-#     neuronios_por_camada=[2,2],
-#     pesos=[[np.array([0.35, 0.15, 0.2]), np.array([0.35, 0.25, 0.3])],
-#            [np.array([0.6, 0.4, 0.45]), np.array([0.6, 0.5, 0.55])]],
-#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
-#     epocas=1, precisao=1e-7
-# )
-# mlp = MultiLayerPerceptron(
-#     neuronios_por_camada=[2,2],
-#     pesos=[[np.zeros(3), np.zeros(3)],
-#            [np.zeros(3), np.zeros(3)]],
-#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
-#     epocas=1000, precisao=1e-7
-# )
-# mlp = MultiLayerPerceptron(
-#     neuronios_por_camada=[2,2],
-#     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
-#     epocas=1, precisao=1e-7
-# )
-# mlp.definir_entradas(np.array([0.05, 0.1]))
-#
-# debug = False
-#
-# mlp.treinar()
