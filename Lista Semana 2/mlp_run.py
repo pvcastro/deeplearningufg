@@ -7,7 +7,7 @@ mlp = MultiLayerPerceptron(
     pesos=[[np.array([0.35, 0.15, 0.2]), np.array([0.35, 0.25, 0.3])],
            [np.array([0.6, 0.4, 0.45]), np.array([0.6, 0.5, 0.55])]],
     taxa_aprendizagem=0.5, desejados=np.array([0.01, 0.99]),
-    epocas=2, precisao=1e-7, debug_training=True, plot=False
+    epocas=1000, precisao=1e-7, debug_training=True, plot=True
 )
 # mlp = MultiLayerPerceptron(
 #     neuronios_por_camada=[2,2],
