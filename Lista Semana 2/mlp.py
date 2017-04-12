@@ -13,12 +13,11 @@ def log(self, *args):
 
 class Neuronio(object):
 
-    def __init__(self, indice, camada, pesos, taxa_aprendizagem, desejado=0.0):
+    def __init__(self, indice, camada, pesos, taxa_aprendizagem):
         self.indice = indice
         self.camada = camada
         self.id = "[" + str(self.camada) + "][" + str(self.indice) + "]"
         self.pesos = pesos
-        self.desejado = desejado
         self.taxa_aprendizagem = taxa_aprendizagem
         self.entradas = []
         self.saida = 0
@@ -28,6 +27,9 @@ class Neuronio(object):
         ''' Adiciona um coeficiente 1 para o bias na matriz de entradas '''
         self.entradas = np.append(1, entradas)
 
+    def definir_desejados(self, desejados):
+        self.desejados = desejados
+
     def propagar_sinal(self):
         net_neuronio = np.dot(self.entradas, self.pesos)
         log("Potencial de ativação do neurônio", self.id, ": ", net_neuronio)
@@ -36,7 +38,7 @@ class Neuronio(object):
         return self.saida
 
     def calcular_derivada_erro_funcao_saida(self):
-        return -(self.desejado - self.saida)
+        return -(self.desejados - self.saida)
 
     def calcular_derivada_saida_funcao_net(self):
         return self.saida * (1 - self.saida)
@@ -56,7 +58,7 @@ class Neuronio(object):
         log("-------------------------------Fim da Retropropagação---------------------------------------")
 
     def calcular_erro(self):
-        self.erro = np.square(self.desejado - self.saida)
+        self.erro = np.square(self.desejados - self.saida)
         log("Erro", self.id, self.erro)
         return self.erro
 
@@ -70,6 +72,13 @@ class Camada(object):
         for neuronio in self.neuronios:
             neuronio.definir_entradas(np.array(entradas))
 
+    def definir_desejados(self, desejados):
+        for indice, neuronio in enumerate(self.neuronios):
+            if isinstance(desejados, list) or isinstance(desejados, np.ndarray):
+                neuronio.definir_desejados(np.array(desejados[indice]))
+            else:
+                neuronio.definir_desejados(np.array(desejados))
+
     def propagar_sinal(self):
         self.saidas = []
         for neuronio in self.neuronios:
@@ -79,15 +88,27 @@ class Camada(object):
 
 class MultiLayerPerceptron(object):
 
-    def __init__(self, neuronios_por_camada, entradas, desejados, epocas, taxa_aprendizagem, precisao, pesos=None, debug_training=False, plot=True):
+    def __init__(self, numero_de_entradas, neuronios_por_camada, epocas, taxa_aprendizagem, precisao, pesos=None, debug_training=False, plot=True):
         global debug
         debug = debug_training
         self.plot = plot
         if not pesos:
             pesos = []
+            # for i in range(len(neuronios_por_camada)):
+            #     ## Adiciona pesos aleatórios de acordo com o número de neurônios especificados, adicionando mais um peso para o bias
+            #     pesos_da_camada = (2 * np.random.random((neuronios_por_camada[i], neuronios_por_camada[i]+1)) - 1) * 0.25
+            #     pesos.append(pesos_da_camada)
             for i in range(len(neuronios_por_camada)):
-                ## Adiciona pesos aleatórios de acordo com o número de neurônios especificados, adicionando mais um peso para o bias
-                pesos_da_camada = (2 * np.random.random((neuronios_por_camada[i], neuronios_por_camada[i]+1)) - 1) * 0.25
+                ## Quantidade de neurônios é a especificada no array de neurônios por camada do índice corrente
+                quantidade_de_neuronios = neuronios_por_camada[i]
+                ## Quantidade de pesos é a quantidade de neurônios da camada anterior. Se for a primeira camada, usa o número de entradas.
+                ## Soma-se um pelo bias
+                quantidade_de_pesos = 0
+                if i == 0:
+                    quantidade_de_pesos = numero_de_entradas
+                else:
+                    quantidade_de_pesos = neuronios_por_camada[i - 1]
+                pesos_da_camada = (2 * np.random.random((quantidade_de_neuronios, quantidade_de_pesos + 1)) - 1) * 0.25
                 pesos.append(pesos_da_camada)
         self.epocas = epocas
         self.precisao = precisao
@@ -95,19 +116,16 @@ class MultiLayerPerceptron(object):
         for indice_camada, quantidade_de_neuronios in enumerate(neuronios_por_camada):
             camada = Camada(quantidade_de_neuronios=quantidade_de_neuronios)
             for indice in range(quantidade_de_neuronios):
-                #Se for a última camada, adiciona os valores desejados
-                if indice_camada == (len(neuronios_por_camada) - 1):
-                    neuronio = Neuronio(indice=indice, camada=indice_camada, pesos=pesos[indice_camada][indice], taxa_aprendizagem=taxa_aprendizagem, desejado=desejados[indice])
-                else:
-                    neuronio = Neuronio(indice=indice, camada=indice_camada, pesos=pesos[indice_camada][indice], taxa_aprendizagem=taxa_aprendizagem)
-                camada.neuronios[indice] = neuronio
+                camada.neuronios[indice] = Neuronio(indice=indice, camada=indice_camada, pesos=pesos[indice_camada][indice], taxa_aprendizagem=taxa_aprendizagem)
             self.camadas.append(camada)
-        self.definir_entradas(np.array(entradas))
 
     def definir_entradas(self, entradas):
         camada_entrada = self.camadas[0]
-        for neuronio in camada_entrada.neuronios:
-            neuronio.definir_entradas(np.array(entradas))
+        camada_entrada.definir_entradas(entradas)
+
+    def definir_desejados(self, desejados):
+        camada_saida = self.camadas[-1]
+        camada_saida.definir_desejados(desejados)
 
     def propagar_sinal(self):
         for idx, camada in enumerate(self.camadas):
@@ -154,7 +172,7 @@ class MultiLayerPerceptron(object):
             erros.append(neuronio_saida.calcular_erro())
         return np.average(erros)
 
-    def treinar(self):
+    def treinar(self, matriz_entradas, valores_desejados):
         erro_atual = 0
         erro_anterior = 0
         variacao_erro_atingida = False
@@ -163,10 +181,11 @@ class MultiLayerPerceptron(object):
         axis.set_xlabel('Épocas')
         while (epoca < self.epocas and not variacao_erro_atingida):
             print("============================ Época " + str(epoca + 1) + " ================================")
-            self.propagar_sinal()
-            self.retro_propagar_sinal()
+            erros_por_amostra = []
+            for indice, entradas in enumerate(matriz_entradas):
+                self.treinar_amostra(amostra=entradas, desejados=valores_desejados[indice], erros_por_amostra=erros_por_amostra)
             erro_anterior = erro_atual
-            erro_atual = self.calcular_erro()
+            erro_atual = np.average(erros_por_amostra)
             plt.plot(epoca + 1, erro_atual, marker='.', )
             print("Erro quadrático médio depois de", epoca + 1, "época(s)", erro_atual)
             variacao_erro = abs(erro_atual - erro_anterior)
@@ -176,3 +195,10 @@ class MultiLayerPerceptron(object):
                 epoca += 1
         if self.plot:
             plt.show()
+
+    def treinar_amostra(self, amostra, desejados, erros_por_amostra):
+        self.definir_entradas(amostra)
+        self.definir_desejados(desejados)
+        self.propagar_sinal()
+        self.retro_propagar_sinal()
+        erros_por_amostra.append(self.calcular_erro())

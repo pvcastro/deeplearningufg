@@ -37,9 +37,13 @@ normalized_training_data = training_data
 normalized_training_data[normalized_features] = preprocessing.normalize(training_data[normalized_features])
 
 ## Realiza o treinamento do MLP
+training_data_matrix = normalized_training_data.as_matrix()
+training_output_list = training_output.tolist()
+quantidade_features = training_data_matrix.shape[1]
+
 mlp = MultiLayerPerceptron(
-    neuronios_por_camada=[len(normalized_training_data.columns),1],
-    entradas=normalized_training_data, desejados=training_output.tolist(),
-    taxa_aprendizagem=0.1, epocas=1000, precisao=1e-7, plot=False
+    numero_de_entradas=quantidade_features, neuronios_por_camada=[quantidade_features, 1],
+    taxa_aprendizagem=0.5, epocas=500, precisao=1e-7, debug_training=False, plot=True
 )
-mlp.treinar()
+
+mlp.treinar(matriz_entradas=training_data_matrix, valores_desejados=np.array(training_output_list))
