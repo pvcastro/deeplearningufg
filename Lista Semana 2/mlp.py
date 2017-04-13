@@ -57,7 +57,7 @@ class Neuronio(object):
         indice_camada = self.camada.indice
         indice = self.indice
         self.camada.rede.pesos[indice_camada][indice] = self.camada.rede.pesos[indice_camada][indice] - variacao
-        print("Novos pesos", self.id, self.camada.rede.pesos[indice_camada][indice])
+        log("Novos pesos", self.id, self.camada.rede.pesos[indice_camada][indice])
         log("-------------------------------Fim da Retropropagação---------------------------------------")
 
     def calcular_erro(self):
@@ -193,8 +193,8 @@ class MultiLayerPerceptron(object):
         while (epoca < self.epocas and not variacao_erro_atingida):
             print("============================ Época " + str(epoca + 1) + " ================================")
             erros_por_amostra = []
-            for indice, entradas in enumerate(matriz_entradas):
-                self.treinar_amostra(amostra=entradas, desejados=valores_desejados[indice], erros_por_amostra=erros_por_amostra)
+            for indice, amostra in enumerate(matriz_entradas):
+                self.treinar_amostra(amostra=amostra, desejados=valores_desejados[indice], erros_por_amostra=erros_por_amostra)
             erro_anterior = erro_atual
             erro_atual = np.average(erros_por_amostra)
             plt.plot(epoca + 1, erro_atual, marker='.', )
@@ -215,9 +215,7 @@ class MultiLayerPerceptron(object):
         erros_por_amostra.append(self.calcular_erro())
 
     def prever(self, amostra):
-        array = np.array(amostra)
-        for indice in range(0, len(self.pesos)):
-            array_temporario = array
-            pesos_da_camada = self.pesos[indice]
-            array = sigmoid(np.dot(array_temporario, pesos_da_camada))
-        return array
+        self.definir_entradas(amostra)
+        self.propagar_sinal()
+        camada_de_saida = self.camadas[-1]
+        return camada_de_saida.saidas
