@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import math
+from sklearn.metrics import confusion_matrix, classification_report
 
 debug = False
 
@@ -219,3 +219,42 @@ class MultiLayerPerceptron(object):
         self.propagar_sinal()
         camada_de_saida = self.camadas[-1]
         return camada_de_saida.saidas
+
+    def avaliar(self, saidas_esperadas, amostras_de_teste):
+        previsoes = []
+        previsoes_ajustadas = []
+        for amostra_teste in amostras_de_teste:
+            previsao = self.prever(amostra_teste)
+            previsoes.append(previsao)
+            if np.greater_equal(previsao, [0.5]):
+                previsao_ajustada = 1
+            else:
+                previsao_ajustada = 0
+            previsoes_ajustadas.append(previsao_ajustada)
+
+        print("------------------------------------------Resultados------------------------------------------")
+        print("Previsões ajustadas", previsoes_ajustadas)
+        print("Previsões", previsoes)
+        print("Saídas desejadas", saidas_esperadas)
+
+        erros = 0
+        tamanho = len(saidas_esperadas)
+        for i in range(tamanho):
+            if saidas_esperadas[i] != previsoes_ajustadas[i]:
+                erros += 1
+        acertos = tamanho - erros
+        accuracy = float(acertos) / tamanho
+        print("-----------------------------------------------------")
+        print('# Registros corretamente classificados =', acertos)
+        print('# Registros incorretamente classificados =', erros)
+        print('# Total de registros =', tamanho)
+        print("-----------------------------------------------------")
+        print('Precisão = %.2f' % accuracy)
+        print("")
+        print("Matriz de confusão:")
+        print(confusion_matrix(saidas_esperadas, previsoes_ajustadas))
+        report = classification_report(y_true=saidas_esperadas, y_pred=previsoes_ajustadas,
+                                       target_names=['Normal', 'Altered'])
+        print("")
+        print("Relatório:")
+        print(report)
