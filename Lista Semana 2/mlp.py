@@ -5,7 +5,7 @@ import math
 debug = False
 
 def sigmoid(u):
-    return 1 / (1 + math.exp(-u))
+    return 1 / (1 + np.exp(-u))
 
 def log(self, *args):
     if debug == True:
@@ -13,11 +13,10 @@ def log(self, *args):
 
 class Neuronio(object):
 
-    def __init__(self, indice, camada, pesos, taxa_aprendizagem):
+    def __init__(self, indice, camada, taxa_aprendizagem):
         self.indice = indice
         self.camada = camada
-        self.id = "[" + str(self.camada) + "][" + str(self.indice) + "]"
-        self.pesos = pesos
+        self.id = "[" + str(self.camada.indice) + "][" + str(self.indice) + "]"
         self.taxa_aprendizagem = taxa_aprendizagem
         self.entradas = []
         self.saida = 0
@@ -31,7 +30,9 @@ class Neuronio(object):
         self.desejados = desejados
 
     def propagar_sinal(self):
-        net_neuronio = np.dot(self.entradas, self.pesos)
+        indice_camada = self.camada.indice
+        indice = self.indice
+        net_neuronio = np.dot(self.entradas, self.camada.rede.pesos[indice_camada][indice])
         log("Potencial de ativação do neurônio", self.id, ": ", net_neuronio)
         self.saida = sigmoid(net_neuronio)
         log("Saída do neurônio", self.id, ": ", self.saida)
@@ -53,8 +54,10 @@ class Neuronio(object):
         log("Derivada do erro em função dos pesos", derivada_erro_funcao_pesos)
         variacao = self.taxa_aprendizagem * derivada_erro_funcao_pesos
         log("Variação dos pesos", variacao)
-        self.pesos = self.pesos - variacao
-        print("Novos pesos", self.id, self.pesos)
+        indice_camada = self.camada.indice
+        indice = self.indice
+        self.camada.rede.pesos[indice_camada][indice] = self.camada.rede.pesos[indice_camada][indice] - variacao
+        print("Novos pesos", self.id, self.camada.rede.pesos[indice_camada][indice])
         log("-------------------------------Fim da Retropropagação---------------------------------------")
 
     def calcular_erro(self):
@@ -62,10 +65,17 @@ class Neuronio(object):
         log("Erro", self.id, self.erro)
         return self.erro
 
+    def get_pesos(self):
+        indice_camada = self.camada.indice
+        indice = self.indice
+        return self.camada.rede.pesos[indice_camada][indice]
+
 class Camada(object):
 
-    def __init__(self, quantidade_de_neuronios):
+    def __init__(self, quantidade_de_neuronios, indice, rede):
         self.neuronios = [None] * quantidade_de_neuronios
+        self.indice = indice
+        self.rede = rede
         self.saidas = []
 
     def definir_entradas(self, entradas):
@@ -110,13 +120,14 @@ class MultiLayerPerceptron(object):
                     quantidade_de_pesos = neuronios_por_camada[i - 1]
                 pesos_da_camada = (2 * np.random.random((quantidade_de_neuronios, quantidade_de_pesos + 1)) - 1) * 0.25
                 pesos.append(pesos_da_camada)
+        self.pesos = pesos
         self.epocas = epocas
         self.precisao = precisao
         self.camadas = []
         for indice_camada, quantidade_de_neuronios in enumerate(neuronios_por_camada):
-            camada = Camada(quantidade_de_neuronios=quantidade_de_neuronios)
+            camada = Camada(quantidade_de_neuronios=quantidade_de_neuronios, indice=indice_camada, rede=self)
             for indice in range(quantidade_de_neuronios):
-                camada.neuronios[indice] = Neuronio(indice=indice, camada=indice_camada, pesos=pesos[indice_camada][indice], taxa_aprendizagem=taxa_aprendizagem)
+                camada.neuronios[indice] = Neuronio(indice=indice, camada=camada, taxa_aprendizagem=taxa_aprendizagem)
             self.camadas.append(camada)
 
     def definir_entradas(self, entradas):
@@ -148,9 +159,9 @@ class MultiLayerPerceptron(object):
             log("Derivada da saída em função do net", derivada_saida_funcao_net)
             derivada_erro_funcao_net = derivada_erro_funcao_saida * derivada_saida_funcao_net
             log("Derivada do erro em função do net", derivada_erro_funcao_net)
-            log("Pesos do neurônio", neuronio.id, neuronio.pesos)
+            log("Pesos do neurônio", neuronio.id, neuronio.get_pesos())
             #Desconsidera o bias na multiplicação das derivadas pelos pesos do neurônio
-            derivadas_erro_funcao_net_por_pesos.append(neuronio.pesos[1:] * derivada_erro_funcao_net)
+            derivadas_erro_funcao_net_por_pesos.append(neuronio.get_pesos()[1:] * derivada_erro_funcao_net)
             # faz retropropagação da saída somente depois de ter guardado os dados com os pesos atuais
             neuronio.retro_propagar_sinal(derivada_erro_funcao_saida)
 
@@ -202,3 +213,11 @@ class MultiLayerPerceptron(object):
         self.propagar_sinal()
         self.retro_propagar_sinal()
         erros_por_amostra.append(self.calcular_erro())
+
+    def prever(self, amostra):
+        array = np.array(amostra)
+        for indice in range(0, len(self.pesos)):
+            array_temporario = array
+            pesos_da_camada = self.pesos[indice]
+            array = sigmoid(np.dot(array_temporario, pesos_da_camada))
+        return array

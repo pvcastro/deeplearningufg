@@ -43,7 +43,14 @@ quantidade_features = training_data_matrix.shape[1]
 
 mlp = MultiLayerPerceptron(
     numero_de_entradas=quantidade_features, neuronios_por_camada=[quantidade_features, 1],
-    taxa_aprendizagem=0.5, epocas=500, precisao=1e-7, debug_training=False, plot=True
+    taxa_aprendizagem=0.5, epocas=5, precisao=1e-7, debug_training=False, plot=False
 )
 
 mlp.treinar(matriz_entradas=training_data_matrix, valores_desejados=np.array(training_output_list))
+
+normalized_test_data = test_data
+normalized_test_data[normalized_features] = preprocessing.normalize(test_data[normalized_features])
+test_data_matrix = normalized_test_data.as_matrix()
+
+previsao = mlp.prever(test_data_matrix[0])
+print(previsao)
