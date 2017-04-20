@@ -61,7 +61,7 @@ class Neuronio(object):
         log("-------------------------------Fim da Retropropagação---------------------------------------")
 
     def calcular_erro(self):
-        self.erro = np.square(self.desejados - self.saida)
+        self.erro = np.square(self.desejados - self.saida)/2
         log("Erro", self.id, self.erro)
         return self.erro
 
@@ -104,10 +104,6 @@ class MultiLayerPerceptron(object):
         self.plot = plot
         if not pesos:
             pesos = []
-            # for i in range(len(neuronios_por_camada)):
-            #     ## Adiciona pesos aleatórios de acordo com o número de neurônios especificados, adicionando mais um peso para o bias
-            #     pesos_da_camada = (2 * np.random.random((neuronios_por_camada[i], neuronios_por_camada[i]+1)) - 1) * 0.25
-            #     pesos.append(pesos_da_camada)
             for i in range(len(neuronios_por_camada)):
                 ## Quantidade de neurônios é a especificada no array de neurônios por camada do índice corrente
                 quantidade_de_neuronios = neuronios_por_camada[i]
