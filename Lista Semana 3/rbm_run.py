@@ -1,6 +1,8 @@
 import numpy as np
 from rbm import RestrictedBoltzmannMachine
 
+#Filmes: Harry Potter, Avatar, LOTR 3, Gladiador, Titanic, Glitter
+
 aluno_1 = [0,1,1,1,0,0]
 aluno_2 = [0,1,1,1,0,0]
 aluno_3 = [1,1,1,0,0,0]
@@ -27,9 +29,14 @@ probabilidade_associacao_neuronios = np.array([[False, False, True],
 
 mlp = RestrictedBoltzmannMachine(
     entradas=entradas, quantidade_neuronios_ocultos=2, epocas=5000,
-    taxa_aprendizagem=0.1, precisao=0, pesos=pesos, debug=False, plot=True
+    taxa_aprendizagem=0.1, precisao=0, pesos=pesos, debug=False, plot=False
 )
 
 mlp.treinar()
 
 print(mlp.pesos)
+
+#Pessoa que assistiria somente Gladiador e Titanic
+dados_de_teste = np.array([[1,0,1,1,0,0]])
+mlp.prever(amostras=dados_de_teste)
+mlp.prever(amostras=entradas)

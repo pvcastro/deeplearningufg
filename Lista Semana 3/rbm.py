@@ -98,12 +98,16 @@ class RestrictedBoltzmannMachine(object):
 
     def prever(self, amostras):
         quantidade_amostras = amostras.shape[0]
+        print("Previsão com", quantidade_amostras, "amostras")
         # Adiciona bias nas amostras
         amostras = np.insert(amostras, 0, 1, axis=1)
         #estados_neuronios_ocultos = np.ones((quantidade_amostras, self.quantidade_neuronios_ocultos + 1))
         energia_ativacao = np.dot(amostras, self.pesos)
+        print("Energia de ativação das amostras", "\n", energia_ativacao)
         ativacao = self.sigmoid(energia_ativacao)
+        print("Ativação das amostras", "\n", ativacao)
         estados = ativacao >= np.random.rand(quantidade_amostras, self.quantidade_neuronios_ocultos + 1)
         # Despreza os bias
         estados = estados[:, 1:]
+        print("Estados dos neurônios ocultos", "\n", estados)
         return estados
