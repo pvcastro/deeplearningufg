@@ -65,8 +65,6 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Convolution2D(256, (3, 3), activation='relu', padding='same'))
 model.add(Dropout(0.2))
 model.add(Convolution2D(256, (3, 3), activation='relu', padding='same'))
-
-
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Flatten())
 model.add(Dropout(0.2))
