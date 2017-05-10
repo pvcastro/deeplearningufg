@@ -14,13 +14,13 @@ matplotlib
 from keras.layers import Convolution2D, MaxPooling2D, Activation
 from keras.models import Sequential
 
-
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2
+#import cv2
+import matplotlib.image as mpimg
 
 
-cat = cv2.imread('cat.png')
+cat = mpimg.imread('cat.png')
 plt.imshow(cat)
 
 cat.shape
