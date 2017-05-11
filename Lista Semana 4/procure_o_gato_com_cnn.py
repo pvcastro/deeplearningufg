@@ -11,13 +11,18 @@ numpy
 opencv (usada apenas para abrira a imagem - pode ser substituida por outra, como numpy ndarray)
 matplotlib
 """
-from keras.layers import Convolution2D, MaxPooling2D, Activation
-from keras.models import Sequential
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 import numpy as np
 import matplotlib.pyplot as plt
-#import cv2
 import matplotlib.image as mpimg
+
+np.random.seed(777)
+
+from keras.layers import Convolution2D, MaxPooling2D, Activation
+from keras.models import Sequential
 
 
 cat = mpimg.imread('cat.png')
@@ -26,7 +31,7 @@ plt.imshow(cat)
 cat.shape
 
 model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 
 cat_batch = np.expand_dims(cat,axis=0)
 conv_cat = model.predict(cat_batch)
