@@ -41,7 +41,7 @@ def visualize_cat(model, cat):
 visualize_cat(model, cat)
 
 model = Sequential()
-model.add(Convolution2D(3, 10,10,input_shape=cat.shape))
+model.add(Convolution2D(3, (10,10), input_shape=cat.shape))
 
 
 visualize_cat(model, cat)
@@ -56,81 +56,82 @@ def imprime_gatinho_fofo(model, cat):
     plt.imshow(conv_cat2)
     
 model = Sequential()
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 
 imprime_gatinho_fofo(model, cat)    
 
 model = Sequential()
-model.add(Convolution2D(1,15,15,input_shape=cat.shape))
+model.add(Convolution2D(1, (15,15), input_shape=cat.shape))
 
 imprime_gatinho_fofo(model, cat)
 
 
 model = Sequential()
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 
 imprime_gatinho_fofo(model, cat)
 
 
 model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 
 visualize_cat(model, cat)
 
 
 model = Sequential()
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 model.add(MaxPooling2D(pool_size=(5,5)))
 
 imprime_gatinho_fofo(model, cat)
 
 model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
-model.add(MaxPooling2D(pool_size=(5,5)))
-visualize_cat(model, cat)
-
-model = Sequential()
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(5,5)))
-
-imprime_gatinho_fofo(model, cat)
-
-model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
-model.add(Activation('relu'))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 model.add(MaxPooling2D(pool_size=(5,5)))
 
 visualize_cat(model, cat)
 
+model = Sequential()
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(5,5)))
+
+imprime_gatinho_fofo(model, cat)
 
 model = Sequential()
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(5,5)))
+
+visualize_cat(model, cat)
+
+
+model = Sequential()
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(3,3)))
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(3,3)))
 
 imprime_gatinho_fofo(model, cat)
 
 model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(3,3)))
-model.add(Convolution2D(1,3,3,input_shape=cat.shape))
+model.add(Convolution2D(1, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
 
 imprime_gatinho_fofo(model, cat)
 
 model = Sequential()
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(3,3)))
-model.add(Convolution2D(3,3,3,input_shape=cat.shape))
+model.add(Convolution2D(3, (3,3), input_shape=cat.shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
 
