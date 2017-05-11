@@ -11,6 +11,7 @@ import random
 # import matplotlib.pyplot as plt
 
 from tensorflow.examples.tutorials.mnist import input_data
+from sklearn.metrics import roc_curve
 
 tf.set_random_seed(777)  # reproducibility
 
