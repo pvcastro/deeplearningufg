@@ -23,6 +23,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 taxa_aprendizado = 0.001
 quantidade_maxima_epocas = 15
 batch_size = 200
+keep_prob = tf.placeholder(tf.float32)
 
 #with tf.device('/cpu:0'):
 
@@ -39,8 +40,8 @@ W1 = tf.Variable(tf.random_normal([5, 5, 1, 32], stddev=0.01))
 #    Pool     -> (?, 14, 14, 32)
 L1 = tf.nn.conv2d(X_img, W1, strides=[1, 1, 1, 1], padding='SAME')
 L1 = tf.nn.relu(L1)
-L1 = tf.nn.max_pool(L1, ksize=[1, 2, 2, 1],
-                    strides=[1, 2, 2, 1], padding='SAME')
+L1 = tf.nn.max_pool(L1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+#L1 = tf.nn.dropout(L1, keep_prob)
 '''
 Tensor("Conv2D:0", shape=(?, 28, 28, 32), dtype=float32)
 Tensor("Relu:0", shape=(?, 28, 28, 32), dtype=float32)
@@ -53,8 +54,9 @@ W2 = tf.Variable(tf.random_normal([5, 5, 32, 64], stddev=0.01))
 #    Pool      ->(?, 7, 7, 64)
 L2 = tf.nn.conv2d(L1, W2, strides=[1, 1, 1, 1], padding='SAME')
 L2 = tf.nn.relu(L2)
-L2 = tf.nn.max_pool(L2, ksize=[1, 2, 2, 1],
-                    strides=[1, 2, 2, 1], padding='SAME')
+L2 = tf.nn.max_pool(L2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+#L2 = tf.nn.dropout(L2, keep_prob)
+
 L2_flat = tf.reshape(L2, [-1, 7 * 7 * 64])
 '''
 Tensor("Conv2D_1:0", shape=(?, 14, 14, 64), dtype=float32)
@@ -68,7 +70,6 @@ W3 = tf.get_variable("W3", shape=[7 * 7 * 64, 1024],
                      initializer=tf.contrib.layers.xavier_initializer())
 L3 = tf.nn.relu(tf.matmul(L2_flat, W3))
 
-keep_prob = tf.placeholder(tf.float32)
 L3_drop = tf.nn.dropout(L3, keep_prob)
 
 # Classificador - Camada Fully Connected entrada 1024 -> 10 saídas
