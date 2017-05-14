@@ -92,7 +92,7 @@ for epoca in range(quantidade_maxima_epocas):
 
     for i in range(total_batch):
         batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-        feed_dict = {X: batch_xs, Y: batch_ys, keep_prob: 0.3}
+        feed_dict = {X: batch_xs, Y: batch_ys, keep_prob: 0.35}
         c, _ = sess.run([cost, optimizer], feed_dict=feed_dict)
         custo_medio += c / total_batch
 
