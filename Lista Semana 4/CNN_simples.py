@@ -11,7 +11,6 @@ import numpy as np
 import random
 
 from tensorflow.examples.tutorials.mnist import input_data
-from sklearn.metrics import roc_curve, auc
 
 tf.set_random_seed(777)  # reproducibility
 
@@ -21,8 +20,8 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 # Parâmetros de aprendizagem
 taxa_aprendizado = 0.001
-quantidade_maxima_epocas = 15
-batch_size = 200
+quantidade_maxima_epocas = 50
+batch_size = 100
 keep_prob = tf.placeholder(tf.float32)
 
 #with tf.device('/cpu:0'):
@@ -93,7 +92,7 @@ for epoca in range(quantidade_maxima_epocas):
 
     for i in range(total_batch):
         batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-        feed_dict = {X: batch_xs, Y: batch_ys, keep_prob: 0.2}
+        feed_dict = {X: batch_xs, Y: batch_ys, keep_prob: 0.3}
         c, _ = sess.run([cost, optimizer], feed_dict=feed_dict)
         custo_medio += c / total_batch
 
@@ -104,30 +103,19 @@ print('Treinamento finalizado!')
 # Teste o modelo e verifica a taxa de acerto
 correct_prediction = tf.equal(tf.argmax(logits, 1), tf.argmax(Y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-print('Taxa de acerto:', sess.run(accuracy, feed_dict={
-      X: mnist.test.images, Y: mnist.test.labels, keep_prob: 1.0}))
 
-# Obtém uma nova imagem e testa o modelo
-r = random.randint(0, mnist.test.num_examples - 1)
-print("Classe real: ", sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1)))
-print("Predição: ", sess.run(
-    tf.argmax(logits, 1), feed_dict={X: mnist.test.images[r:r + 1], keep_prob: 1.0}))
+#Saída da rede
+d = tf.cast(tf.argmax(logits, 1),tf.float32)
+#Respostas Corretas
+y = tf.cast(tf.argmax(Y,1),tf.float32)
 
-# for i in range(mnist.test.num_examples):
-#     y_p = tf.argmax(logits, 1)
-#     x_val = mnist.test.images[:,i]
-#     print(x_val.shape)
-#     y_val = mnist.test.labels[:,i]
-#     print(y_val.shape)
-#     val_accuracy, y_pred = sess.run([accuracy, y_p], feed_dict={X: x_val, Y: y_val, keep_prob: 1.0})
-#     print(y_pred)
-#     fpr, tpr, tresholds = roc_curve(y_val, y_pred)
-#     print("class %s:auc=%s" % (i, auc(fpr, tpr)))
+# Calcula a área da curva ROC (AUC)
+auc, update_auc = tf.contrib.metrics.streaming_auc(d, y)
 
-# fpr = dict()
-# tpr = dict()
-# roc_auc = dict()
-# for i in range(10):
-#     fpr[i], tpr[i], thresh = roc_curve(valid.y[:, i], prediction[:, i])
-#     roc_auc[i] = auc(fpr[i], tpr[i])
-#     print("class %s:auc=%s" % (i, roc_auc[i]))
+sess.run(tf.local_variables_initializer())
+
+# Avalia Acurácia
+print('Taxa de acerto:', sess.run(accuracy, feed_dict={X: mnist.test.images, Y: mnist.test.labels, keep_prob: 1.0}))
+
+# Avalia AUC
+print('Area da curva ROC:', sess.run(update_auc, feed_dict={X: mnist.test.images, Y: mnist.test.labels, keep_prob: 1.0}))
