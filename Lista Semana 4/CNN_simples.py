@@ -20,7 +20,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 # Parâmetros de aprendizagem
 taxa_aprendizado = 0.001
-quantidade_maxima_epocas = 50
+quantidade_maxima_epocas = 200
 batch_size = 100
 keep_prob = tf.placeholder(tf.float32)
 
