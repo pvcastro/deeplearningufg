@@ -20,19 +20,17 @@ class GerarImagens(object):
 
         setup = SetupImagens(url_base='http://projetoredacao.s3.amazonaws.com/files/')
         all_images_filename = setup.maybe_download('imagens.zip', 106087279)
-        all_folders = setup.maybe_extract(filename=all_images_filename, expected_folders=['redacao', 'nao_e_redacao'])
+        setup.maybe_extract(filename=all_images_filename, expected_folders=['redacao', 'nao_e_redacao'])
         ## pastas estão invertidas, então usa-se um dictionary para regularizar
-        folder_by_class = { 'redacao': 'nao_e_redacao', 'nao_e_redacao': 'redacao' }
-        setup.split_training_test(folder_names=all_folders)
-        average_width, average_height = setup.get_average_images_shape(['redacao/train', 'redacao/test', 'nao_e_redacao/train', 'nao_e_redacao/test'])
+        class_by_folder = {'redacao': 'nao_e_redacao', 'nao_e_redacao': 'redacao'}
+        setup.split_training_test(class_by_folder=class_by_folder)
+        average_width, average_height = setup.get_average_images_shape(['data/train/redacao', 'data/test/redacao', 'data/train/nao_e_redacao', 'data/test/nao_e_redacao'])
 
         # this is a generator that will read pictures found in subfolders of 'data/train', and indefinitely generate batches of augmented image data
-        redacao_train_generator = self.get_train_generator('redacao/train', target_width=average_width, target_height=average_height)
-        nao_redacao_train_generator = self.get_train_generator('nao_e_redacao/train', target_width=average_width, target_height=average_height)
-        redacao_test_generator = self.get_test_generator('redacao/test', target_width=average_width, target_height=average_height)
-        nao_redacao_test_generator = self.get_test_generator('nao_e_redacao/test', target_width=average_width, target_height=average_height)
+        train_generator = self.get_train_generator('data/train', target_width=average_width, target_height=average_height)
+        test_generator = self.get_test_generator('data/test', target_width=average_width, target_height=average_height)
 
-        return redacao_train_generator, nao_redacao_train_generator, redacao_test_generator, nao_redacao_test_generator
+        return train_generator, test_generator, average_width, average_height
 
     def get_train_generator(self, directory, target_width, target_height):
         return self.train_datagen.flow_from_directory(

@@ -1,4 +1,4 @@
-import numpy, os, sys, zipfile, shutil
+import numpy, os, sys, zipfile, shutil, math
 
 from six.moves.urllib.request import urlretrieve
 from sklearn.model_selection import train_test_split
@@ -59,20 +59,13 @@ class SetupImagens(object):
         print(found_folders)
         return found_folders
 
-    def split_training_test(self, folder_names):
+    def split_training_test(self, class_by_folder):
         print('Splitting each folder between training and test folders.')
-        for folder in folder_names:
+        for folder in class_by_folder.keys():
+            folder_class = class_by_folder[folder]
             folder_path = os.path.join(self.data_root, folder)
-            ## Recria pasta de treino
-            train_path = os.path.join(folder_path, 'train')
-            if os.path.exists(train_path):
-                shutil.rmtree(train_path)
-            os.makedirs(train_path)
-            ## Recria pasta de teste
-            test_path = os.path.join(folder_path, 'test')
-            if os.path.exists(test_path):
-                shutil.rmtree(test_path)
-            os.makedirs(test_path)
+            train_path = self.setup_data_folder(base_path='train', class_name=folder_class)
+            test_path = self.setup_data_folder(base_path='test', class_name=folder_class)
             ## Obtém somente nomes dos arquivos de imagem
             image_files = self.get_image_files(folder_path=folder_path)
             ## Faz o split dos dados para 70% de treino e 30% de teste
@@ -84,6 +77,13 @@ class SetupImagens(object):
             for file in test_data:
                 file_path = os.path.join(folder_path, file)
                 shutil.move(file_path, test_path)
+
+    def setup_data_folder(self, base_path, class_name):
+        folder_path = os.path.join(self.data_root, 'data', base_path, class_name)
+        if os.path.exists(folder_path):
+            shutil.rmtree(folder_path)
+        os.makedirs(folder_path)
+        return folder_path
 
     def get_image_files(self, folder_path):
         return [file_name for file_name in os.listdir(folder_path) if file_name.endswith('.jpg')]
@@ -122,4 +122,4 @@ class SetupImagens(object):
         average_width = numpy.mean(total_width)
         average_height = numpy.mean(total_height)
 
-        return average_width, average_height
+        return math.ceil(average_width), math.ceil(average_height)
