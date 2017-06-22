@@ -4,7 +4,12 @@
 **/__pycache__
 **/*.pkl
 **/MNIST_data
-**/imagens.zip
+**/*.zip
 **/redacao
 **/nao_e_redacao
 **/preview
+**/GTSRB
+**/data
+**/*.h5
+**/test1
+**/train

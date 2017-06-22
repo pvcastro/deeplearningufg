@@ -26,6 +26,7 @@ from keras import backend as K
 K.set_image_data_format('channels_first')
 
 from matplotlib import pyplot as plt
+from roc_curve import plot_roc_curve
 
 NUM_CLASSES = 43
 IMG_SIZE = 48
@@ -156,7 +157,8 @@ model.fit(X, Y,
           validation_split=0.2,
           shuffle=True,
           callbacks=[LearningRateScheduler(lr_schedule),
-                    ModelCheckpoint('model.h5',save_best_only=True)]
+                    ModelCheckpoint('model.h5',save_best_only=True)],
+          verbose=2
             )
 
 
@@ -185,73 +187,17 @@ y_pred = model.predict_classes(X_test)
 acc = np.sum(y_pred==y_test)/np.size(y_pred)
 print("Test accuracy = {}".format(acc))
 
-
-# # With Data augmentation
-
-# In[ ]:
-
-from sklearn.cross_validation import train_test_split
-
-X_train, X_val, Y_train, Y_val = train_test_split(X, Y, test_size=0.2, random_state=42)
-
-datagen = ImageDataGenerator(featurewise_center=False, 
-                            featurewise_std_normalization=False, 
-                            width_shift_range=0.1,
-                            height_shift_range=0.1,
-                            zoom_range=0.2,
-                            shear_range=0.1,
-                            rotation_range=10.,)
-
-datagen.fit(X_train)
-
-
-# In[ ]:
-
-# Reinstallise models 
-
-model = cnn_model()
-# let's train the model using SGD + momentum (how original).
-lr = 0.01
-sgd = SGD(lr=lr, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy',
-          optimizer=sgd,
-          metrics=['accuracy'])
-
-
-def lr_schedule(epoch):
-    return lr*(0.1**int(epoch/10))
-
-
-# In[ ]:
-
-nb_epoch = 30
-model.fit_generator(datagen.flow(X_train, Y_train, batch_size=batch_size),
-                            steps_per_epoch=X_train.shape[0],
-                            epochs=nb_epoch,
-                            validation_data=(X_val, Y_val),
-                            callbacks=[LearningRateScheduler(lr_schedule),
-                                       ModelCheckpoint('model.h5',save_best_only=True)]
-                           )
-
-
-# In[ ]:
-
-y_pred = model.predict_classes(X_test)
-acc = np.sum(y_pred==y_test)/np.size(y_pred)
-print("Test accuracy = {}".format(acc))
-
-
 # In[ ]:
 
 model.summary()
-
 
 # In[ ]:
 
 model.count_params()
 
-
 # In[ ]:
 
+y_test = np_utils.to_categorical(y_test)
+y_pred = np_utils.to_categorical(y_pred)
 
-
+plot_roc_curve(y_test[:, 0], y_pred[:, 0])
