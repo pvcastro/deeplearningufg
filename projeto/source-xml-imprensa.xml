@@ -1,0 +1,63 @@
+<attribute-sets default="overridden-attributes">
+  <attribute-set id="overridden-attributes">
+    <value-set based-on="defaults">
+      <label>overridden-attributes</label>
+      <attribute key="query">
+        <value value="imprensa"/>
+      </attribute>
+      <attribute key="results">
+        <value type="java.lang.Integer" value="3387"/>
+      </attribute>
+      <attribute key="XmlDocumentSource.xml">
+        <value>
+          <wrapper class="org.carrot2.util.resource.FileResource" absolute-path="/media/discoD/repositorios/deeplearningufg/projeto/imprensa_nacional.xml"/>
+        </value>
+      </attribute>
+      <attribute key="XmlDocumentSource.xslt">
+        <value>
+          <wrapper class="org.carrot2.util.resource.FileResource" absolute-path="/media/discoD/repositorios/deeplearningufg/projeto/imprensa_nacional_carrot.xslt"/>
+        </value>
+      </attribute>
+    </value-set>
+  </attribute-set>
+  <attribute-set id="defaults">
+    <value-set>
+      <label>defaults</label>
+      <attribute key="query">
+        <value/>
+      </attribute>
+      <attribute key="results">
+        <value type="java.lang.Integer" value="100"/>
+      </attribute>
+      <attribute key="XmlDocumentSource.readAll">
+        <value type="java.lang.Boolean" value="true"/>
+      </attribute>
+      <attribute key="XmlDocumentSource.readClusters">
+        <value type="java.lang.Boolean" value="false"/>
+      </attribute>
+      <attribute key="XmlDocumentSource.xml">
+        <value/>
+      </attribute>
+      <attribute key="XmlDocumentSource.xmlParameters">
+        <value>
+          <wrapper class="org.carrot2.util.simplexml.MapSimpleXmlWrapper">
+            <map/>
+          </wrapper>
+        </value>
+      </attribute>
+      <attribute key="XmlDocumentSource.xslt">
+        <value/>
+      </attribute>
+      <attribute key="XmlDocumentSource.xsltParameters">
+        <value>
+          <wrapper class="org.carrot2.util.simplexml.MapSimpleXmlWrapper">
+            <map/>
+          </wrapper>
+        </value>
+      </attribute>
+      <attribute key="XmlDocumentSourceHelper.timeout">
+        <value type="java.lang.Integer" value="8"/>
+      </attribute>
+    </value-set>
+  </attribute-set>
+</attribute-sets>
