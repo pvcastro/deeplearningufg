@@ -28,3 +28,7 @@ projeto/CETENFolha-1.0
 projeto/CHAVEFolha
 **/20_newsgroup
 **/glove.6B
+**/*.dict
+**/*.tgz
+**/*.csv
+
