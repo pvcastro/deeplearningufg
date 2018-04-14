@@ -5,8 +5,8 @@ import gensim
 warnings.filterwarnings('ignore')  # Let's not pay heed to them right now
 
 import nltk
-nltk.download('stopwords') # Let's make sure the 'stopword' package is downloaded & updated
-nltk.download('wordnet') # Let's also download wordnet, which will be used for lemmatization
+#nltk.download('stopwords') # Let's make sure the 'stopword' package is downloaded & updated
+#nltk.download('wordnet') # Let's also download wordnet, which will be used for lemmatization
 
 from gensim.utils import lemmatize
 from nltk.corpus import stopwords
@@ -79,7 +79,7 @@ def process_file(file, keep_all=True):
     
     lemmatizer = WordNetLemmatizer()
 
-    texts = [[word for word in lemmatizer.lemmatize(' '.join(line), pos='v').split()] for line in texts]
+    texts = [[lemmatizer.lemmatize(word) for word in line] for line in texts]
 
     return texts
 
