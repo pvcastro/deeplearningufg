@@ -1,4 +1,4 @@
-Training Round,Epochs,Scenario,Embedding,Tagging Scheme,Capitalisation Dim,Lower,Char LSTM Dim,Word LSTM Dim,Precision,Recall,F1 Score
+Training_Round,Epochs,Scenario,Embedding,Tagging_Scheme,Capitalisation_Dim,Lower,Char_LSTM_Dim,Word_LSTM_Dim,Precision,Recall,F1_Score
 0,5,selective,Wang2Vec,iob,False,False,25,100,58.95,54.79,56.79
 0,5,selective,Wang2Vec,iob,False,False,25,200,61.6,52.06,56.43
 0,5,selective,Wang2Vec,iob,False,False,50,100,66.5,47.47,55.4
