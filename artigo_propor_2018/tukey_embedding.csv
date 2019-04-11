@@ -1,0 +1,7 @@
+Group 1,Group 2,Mean Difference,Lower,Upper,Reject?
+FastText,Glove,-2.40940,-2.80370,-2.01510,True
+FastText,Wang2Vec,1.49260,1.09560,1.88970,True
+FastText,Word2Vec,-16.23970,-16.62770,-15.85170,True
+Glove,Wang2Vec,3.90200,3.50850,4.29560,True
+Glove,Word2Vec,-13.83030,-14.21470,-13.44580,True
+Wang2Vec,Word2Vec,-17.73230,-18.11960,-17.34500,True
