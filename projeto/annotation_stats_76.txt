@@ -1,0 +1,330 @@
+/home/pedro/anaconda3/envs/allennlp/bin/python /home/pedro/pycharm-2018.3.1/helpers/pydev/pydevd.py --multiproc --qt-support=auto --client 127.0.0.1 --port 34795 --file /home/pedro/repositorios/entidades/entity_annotation_from_folder.py --conll-annotations-path '/media/discoD/Anotações/Trabalhista/conll_2002' --annotations-folder 'Entidades_curated_documents_2019-02-01_1735/qualificacao' --curated --ignore-categories DECISAO,PEDIDO,REFLEXO,null
+pydev debugger: process 10517 is connecting
+
+Connected to pydev debugger (build 191.6183.50)
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000001-63.2011.5.04.0292-4039744-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 40 sentences from 0000001-63.2011.5.04.0292-4039744-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000002-88.2013.5.07.0035-204052-Acordao.txt/CURATION_USER.conll
+
+loaded 306 sentences from 0000002-88.2013.5.07.0035-204052-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000003-10.2011.5.15.0136-8cb0a34-Sentenca.txt/CURATION_USER.conll
+
+loaded 13 sentences from 0000003-10.2011.5.15.0136-8cb0a34-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000003-52.2013.5.21.0013-557-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 22 sentences from 0000003-52.2013.5.21.0013-557-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000003-52.2013.5.21.0013-ce561e7-Sentenca.txt/CURATION_USER.conll
+
+loaded 19 sentences from 0000003-52.2013.5.21.0013-ce561e7-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000003-85.2011.5.05.0201-472b65b-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 26 sentences from 0000003-85.2011.5.05.0201-472b65b-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000004-24.2011.5.09.0245-99ebe72-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 19 sentences from 0000004-24.2011.5.09.0245-99ebe72-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000004-51.2018.5.19.0002-da47168-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 12 sentences from 0000004-51.2018.5.19.0002-da47168-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000004-52.2011.5.04.0022-c64a25d-Sentenca.txt/CURATION_USER.conll
+
+loaded 121 sentences from 0000004-52.2011.5.04.0022-c64a25d-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000005-36.2018.5.19.0002-481290c-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 20 sentences from 0000005-36.2018.5.19.0002-481290c-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000005-77.2011.5.15.0136-305df74-Sentenca.txt/CURATION_USER.conll
+
+loaded 13 sentences from 0000005-77.2011.5.15.0136-305df74-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000007-41.2011.5.15.0041-9c36e81-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 16 sentences from 0000007-41.2011.5.15.0041-9c36e81-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000007-41.2011.5.15.0041-f170831-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 31 sentences from 0000007-41.2011.5.15.0041-f170831-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000009-20.2013.5.23.0008-24780-Acordao.txt/CURATION_USER.conll
+
+loaded 298 sentences from 0000009-20.2013.5.23.0008-24780-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000009-46.2013.5.07.0014-671012-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 29 sentences from 0000009-46.2013.5.07.0014-671012-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000009-79.2018.5.19.0000-865e8b2-Acordao.txt/CURATION_USER.conll
+
+loaded 44 sentences from 0000009-79.2018.5.19.0000-865e8b2-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000010-43.2018.5.09.0000-8100549-Acordao.txt/CURATION_USER.conll
+
+loaded 87 sentences from 0000010-43.2018.5.09.0000-8100549-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000010-97.2013.5.15.0017-c3c1659-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 105 sentences from 0000010-97.2013.5.15.0017-c3c1659-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000011-06.2018.5.17.0000-e856de4-Acordao.txt/CURATION_USER.conll
+
+loaded 69 sentences from 0000011-06.2018.5.17.0000-e856de4-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000011-18.2011.5.15.0061-00d91ed-Acordao.txt/CURATION_USER.conll
+
+loaded 81 sentences from 0000011-18.2011.5.15.0061-00d91ed-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000012-14.2013.5.21.0013-767-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 29 sentences from 0000012-14.2013.5.21.0013-767-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000012-28.2018.5.19.0002-0f53554-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 20 sentences from 0000012-28.2018.5.19.0002-0f53554-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000013-73.2018.5.17.0000-106bcb4-Acordao.txt/CURATION_USER.conll
+
+loaded 43 sentences from 0000013-73.2018.5.17.0000-106bcb4-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000015-24.2011.5.15.0136-50ecaf4-Sentenca.txt/CURATION_USER.conll
+
+loaded 22 sentences from 0000015-24.2011.5.15.0136-50ecaf4-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000016-50.2018.5.09.0000-11a4737-Acordao.txt/CURATION_USER.conll
+
+loaded 30 sentences from 0000016-50.2018.5.09.0000-11a4737-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000016-61.2014.5.17.0002-24c877b-Sentenca.txt/CURATION_USER.conll
+
+loaded 320 sentences from 0000016-61.2014.5.17.0002-24c877b-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000017-26.2013.5.15.0038-2fab274-Acordao.txt/CURATION_USER.conll
+
+loaded 86 sentences from 0000017-26.2013.5.15.0038-2fab274-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000017-63.2013.5.15.0058-199b38b-Sentenca.txt/CURATION_USER.conll
+
+loaded 64 sentences from 0000017-63.2013.5.15.0058-199b38b-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000018-04.2018.5.06.0000-425df13-Acordao.txt/CURATION_USER.conll
+
+loaded 97 sentences from 0000018-04.2018.5.06.0000-425df13-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000018-41.2018.5.19.0000-fcc5079-Acordao.txt/CURATION_USER.conll
+
+loaded 36 sentences from 0000018-41.2018.5.19.0000-fcc5079-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000019-47.2013.5.03.0129-64d5a8b-Acordao.txt/CURATION_USER.conll
+
+loaded 84 sentences from 0000019-47.2013.5.03.0129-64d5a8b-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000023-57.2018.5.19.0002-04483dd-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 17 sentences from 0000023-57.2018.5.19.0002-04483dd-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000005-36.2018.5.19.0002-8da602b-Sentenca.txt/CURATION_USER.conll
+
+loaded 49 sentences from 0000005-36.2018.5.19.0002-8da602b-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000012-24.2012.5.22.0109-4d0692a-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 24 sentences from 0000012-24.2012.5.22.0109-4d0692a-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000023-57.2018.5.19.0002-734225e-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 14 sentences from 0000023-57.2018.5.19.0002-734225e-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000033-98.2011.5.15.0086-a2cca30-Sentenca.txt/CURATION_USER.conll
+
+loaded 25 sentences from 0000033-98.2011.5.15.0086-a2cca30-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000051-25.2018.5.19.0002-143d9d6-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 28 sentences from 0000051-25.2018.5.19.0002-143d9d6-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000027-90.2012.5.22.0109-a19add1-Acordao.txt/CURATION_USER.conll
+
+loaded 34 sentences from 0000027-90.2012.5.22.0109-a19add1-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000028-49.2011.5.03.0009-d1c5b0d-Sentenca.txt/CURATION_USER.conll
+
+loaded 17 sentences from 0000028-49.2011.5.03.0009-d1c5b0d-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000028-65.2013.5.21.0013-33153-Sentenca.txt/CURATION_USER.conll
+
+loaded 43 sentences from 0000028-65.2013.5.21.0013-33153-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000028-85.2018.5.19.0000-8d942c5-Acordao.txt/CURATION_USER.conll
+
+loaded 41 sentences from 0000028-85.2018.5.19.0000-8d942c5-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000029-14.2011.5.06.0021-80092d2-Sentenca.txt/CURATION_USER.conll
+
+loaded 21 sentences from 0000029-14.2011.5.06.0021-80092d2-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000029-64.2018.5.19.0002-5504929-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 19 sentences from 0000029-64.2018.5.19.0002-5504929-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000029-67.2018.5.19.0001-b7f9845-Sentenca.txt/CURATION_USER.conll
+
+loaded 66 sentences from 0000029-67.2018.5.19.0001-b7f9845-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000029-93.2013.5.15.0085-c8f1824-Sentenca.txt/CURATION_USER.conll
+
+loaded 50 sentences from 0000029-93.2013.5.15.0085-c8f1824-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000030-46.2011.5.15.0086-11d5977-Sentenca.txt/CURATION_USER.conll
+
+loaded 26 sentences from 0000030-46.2011.5.15.0086-11d5977-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000030-55.2018.5.19.0000-bb2ca59-Acordao.txt/CURATION_USER.conll
+
+loaded 41 sentences from 0000030-55.2018.5.19.0000-bb2ca59-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000033-40.2012.5.12.0024-53c8d54-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 20 sentences from 0000033-40.2012.5.12.0024-53c8d54-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000034-46.2018.5.17.0001-9b4e31b-Sentenca.txt/CURATION_USER.conll
+
+loaded 23 sentences from 0000034-46.2018.5.17.0001-9b4e31b-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000034-83.2013.5.05.0121-8102b89-Acordao.txt/CURATION_USER.conll
+
+loaded 321 sentences from 0000034-83.2013.5.05.0121-8102b89-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000034-86.2018.5.19.0002-9fab1aa-Sentenca.txt/CURATION_USER.conll
+
+loaded 28 sentences from 0000034-86.2018.5.19.0002-9fab1aa-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000037-41.2018.5.19.0002-c19609a-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 20 sentences from 0000037-41.2018.5.19.0002-c19609a-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000038-22.2018.5.05.0000-d26d3ac-Acordao.txt/CURATION_USER.conll
+
+loaded 24 sentences from 0000038-22.2018.5.05.0000-d26d3ac-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000040-89.2018.5.05.0000-18840b5-Acordao.txt/CURATION_USER.conll
+
+loaded 28 sentences from 0000040-89.2018.5.05.0000-18840b5-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000041-78.2018.5.19.0002-61fee73-Sentenca.txt/CURATION_USER.conll
+
+loaded 88 sentences from 0000041-78.2018.5.19.0002-61fee73-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000042-66.2013.5.07.0004-234728-Acordao.txt/CURATION_USER.conll
+
+loaded 31 sentences from 0000042-66.2013.5.07.0004-234728-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000044-36.2018.5.19.0001-ae674c0-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 17 sentences from 0000044-36.2018.5.19.0001-ae674c0-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000046-16.2013.5.20.0013-597697-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 11 sentences from 0000046-16.2013.5.20.0013-597697-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000047-71.2013.5.21.0013-13312-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 25 sentences from 0000047-71.2013.5.21.0013-13312-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000051-28.2018.5.19.0001-e8ceb3e-Sentenca.txt/CURATION_USER.conll
+
+loaded 66 sentences from 0000051-28.2018.5.19.0001-e8ceb3e-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000052-10.2018.5.19.0002-e17a78e-Sentenca.txt/CURATION_USER.conll
+
+loaded 85 sentences from 0000052-10.2018.5.19.0002-e17a78e-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000052-82.2011.5.06.0142-5dfc1d3-Sentenca.txt/CURATION_USER.conll
+
+loaded 15 sentences from 0000052-82.2011.5.06.0142-5dfc1d3-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000053-17.2011.5.02.0033-c318b56-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 20 sentences from 0000053-17.2011.5.02.0033-c318b56-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000053-95.2018.5.19.0001-4f8a79e-Sentenca.txt/CURATION_USER.conll
+
+loaded 67 sentences from 0000053-95.2018.5.19.0001-4f8a79e-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000055-65.2018.5.19.0001-5a1a488-Sentenca.txt/CURATION_USER.conll
+
+loaded 60 sentences from 0000055-65.2018.5.19.0001-5a1a488-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000056-21.2013.5.22.0105-341-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 35 sentences from 0000056-21.2013.5.22.0105-341-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000057-18.2011.5.15.0122-ed70d0e-Sentenca.txt/CURATION_USER.conll
+
+loaded 40 sentences from 0000057-18.2011.5.15.0122-ed70d0e-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000057-88.2013.5.22.0110-693-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 26 sentences from 0000057-88.2013.5.22.0110-693-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000058-02.2018.5.09.0000-9134e1a-Acordao.txt/CURATION_USER.conll
+
+loaded 46 sentences from 0000058-02.2018.5.09.0000-9134e1a-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000061-15.2011.5.02.0511-8d7a316-Acordao.txt/CURATION_USER.conll
+
+loaded 36 sentences from 0000061-15.2011.5.02.0511-8d7a316-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000061-15.2011.5.15.0006-e4904dd-Acordao.txt/CURATION_USER.conll
+
+loaded 34 sentences from 0000061-15.2011.5.15.0006-e4904dd-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000062-98.2011.5.03.0146-f5e45a7-Acordao.txt/CURATION_USER.conll
+
+loaded 63 sentences from 0000062-98.2011.5.03.0146-f5e45a7-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000063-54.2011.5.05.0461-36819e1-Ata_da_Audiencia.txt/CURATION_USER.conll
+
+loaded 17 sentences from 0000063-54.2011.5.05.0461-36819e1-Ata_da_Audiencia.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000065-90.2011.5.05.0342-1c8e714-Acordao.txt/CURATION_USER.conll
+
+loaded 33 sentences from 0000065-90.2011.5.05.0342-1c8e714-Acordao.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000065-90.2011.5.05.0342-fdd722f-Sentenca.txt/CURATION_USER.conll
+
+loaded 17 sentences from 0000065-90.2011.5.05.0342-fdd722f-Sentenca.txt
+
+Analyzing /media/discoD/Anotações/Trabalhista/conll_2002/Entidades_curated_documents_2019-02-01_1735/qualificacao/0000067-85.2011.5.15.0082-0dd7be8-Acordao.txt/CURATION_USER.conll
+
+loaded 44 sentences from 0000067-85.2011.5.15.0082-0dd7be8-Acordao.txt
+
+76 annotated documents
+4057 sentences
+173541 tokens
+4578 entities
+20908 entity tokens
+60.236842 average of entities per annotated document
+4.567060 average of tokens per entity
+
+FUNCAO: 778 entities (1570 tokens)
+FUNDAMENTO: 1339 entities (10513 tokens)
+LOCAL: 146 entities (455 tokens)
+ORGANIZACAO: 867 entities (2966 tokens)
+PESSOA: 949 entities (3217 tokens)
+TRIBUNAL: 302 entities (1129 tokens)
+VALOR_ACORDO: 12 entities (36 tokens)
+VALOR_CAUSA: 5 entities (15 tokens)
+VALOR_CONDENACAO: 17 entities (44 tokens)
+VALOR_CUSTAS: 30 entities (81 tokens)
+VARA: 133 entities (882 tokens)
+
+Process finished with exit code 0

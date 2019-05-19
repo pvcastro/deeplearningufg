@@ -1,0 +1,7 @@
+Documents,76,1.305
+Sentences,4.057,184.633
+Tokens,173.541,8.895.520
+Entities,4.578,132.289
+Entity Tokens,20.908,590.653
+Entities per Document,60.23,101.37
+Tokens per Entity,4.56,4.46

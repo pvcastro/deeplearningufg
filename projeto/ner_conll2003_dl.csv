@@ -1,0 +1,10 @@
+Trabalho,F-Score
+Akbik et al.,93.09%
+Devlin et al.(BERT Large),92.80%
+Devlin et al.(BERT Base),92.40%
+Peters et al.(BiLSTM-CRF+ELMo),92.22%
+Chiu e Nichols,91.62%
+Ma e Hovy,91.21%
+Lample et al.,LSTM-CRF,90.94%
+Huang et al.,90.10%
+Collobert et al.,89.59%
