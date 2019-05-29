@@ -1,0 +1,5 @@
+Representation,mean,min,max,std
+ELMo+CNN+Embeddings,81.26%,80.69%,81.87%,0.40%
+ELMo+Embeddings,80.98%,79.84%,82.44%,0.80%
+ELMo,80.84%,80.84%,80.84%,
+ELMo+CNN,80.40%,79.41%,81.38%,1.39%
