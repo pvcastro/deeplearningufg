@@ -1,26 +1,33 @@
-Model,Representation,Embedding,Embedding_Type,mean,min,max,std
-harem,ELMo+Embeddings,wang2vec,skip,82.44%,82.44%,82.44%,
-harem-ft,ELMo+CNN+Embeddings,wang2vec,cbow,81.87%,81.87%,81.87%,
-harem,ELMo+CNN+Embeddings,word2vec,skip,81.81%,81.81%,81.81%,
-harem-ft,ELMo+CNN+Embeddings,wang2vec,skip,81.77%,81.77%,81.77%,
-harem-ft,ELMo+CNN+Embeddings,fasttext,skip,81.50%,81.50%,81.50%,
-harem-ft,ELMo+CNN+Embeddings,word2vec,skip,81.43%,81.43%,81.43%,
-harem,ELMo+CNN+Embeddings,fasttext,skip,81.42%,81.42%,81.42%,
-harem-ft,ELMo+CNN,No,No,81.38%,81.38%,81.38%,
-harem-ft,ELMo+Embeddings,fasttext,cbow,81.38%,81.38%,81.38%,
-harem,ELMo+CNN+Embeddings,glove,No,81.37%,81.37%,81.37%,
-harem,ELMo+Embeddings,glove,No,81.35%,81.35%,81.35%,
-harem,ELMo+CNN+Embeddings,wang2vec,skip,81.21%,81.21%,81.21%,
-harem,ELMo+Embeddings,word2vec,skip,81.17%,81.17%,81.17%,
-harem,ELMo+CNN+Embeddings,fasttext,cbow,81.05%,81.05%,81.05%,
-harem-ft,ELMo+CNN+Embeddings,word2vec,cbow,81.04%,81.04%,81.04%,
-harem-ft,ELMo+CNN+Embeddings,glove,No,80.98%,80.98%,80.98%,
-harem,ELMo,No,No,80.84%,80.84%,80.84%,
-harem-ft,ELMo+CNN+Embeddings,fasttext,cbow,80.81%,80.81%,80.81%,
-harem,ELMo+Embeddings,wang2vec,cbow,80.77%,80.77%,80.77%,
-harem,ELMo+Embeddings,fasttext,skip,80.73%,80.73%,80.73%,
-harem,ELMo+CNN+Embeddings,wang2vec,cbow,80.72%,80.72%,80.72%,
-harem,ELMo+CNN+Embeddings,word2vec,cbow,80.69%,80.69%,80.69%,
-harem,ELMo+Embeddings,fasttext,cbow,80.18%,80.18%,80.18%,
-harem,ELMo+Embeddings,word2vec,cbow,79.84%,79.84%,79.84%,
-harem,ELMo+CNN,No,No,79.41%,79.41%,79.41%,
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Não,ELMo+Vetor,Wang2Vec,Skip-Gram,81.96%,81.47%,82.44%,0.68%
+Sim,ELMo+Vetor,Word2Vec,Skip-Gram,81.83%,81.63%,82.02%,0.28%
+Sim,ELMo+CNN+Vetor,Wang2Vec,CBoW,81.74%,81.60%,81.87%,0.19%
+Não,ELMo+CNN+Vetor,Wang2Vec,Skip-Gram,81.72%,81.21%,82.23%,0.72%
+Sim,ELMo+Vetor,Wang2Vec,CBoW,81.72%,81.40%,82.03%,0.44%
+Sim,ELMo+Vetor,GloVe,Sem Vetor,81.70%,81.57%,81.83%,0.18%
+Sim,ELMo+Vetor,Wang2Vec,Skip-Gram,81.63%,81.29%,81.98%,0.49%
+Não,ELMo+Vetor,GloVe,Sem Vetor,81.49%,81.35%,81.64%,0.20%
+Sim,ELMo+CNN+Vetor,Word2Vec,Skip-Gram,81.49%,81.43%,81.55%,0.09%
+Não,ELMo+CNN+Vetor,Word2Vec,Skip-Gram,81.44%,81.07%,81.81%,0.52%
+Sim,ELMo+CNN,Sem Vetor,Sem Vetor,81.42%,81.38%,81.45%,0.05%
+Sim,ELMo+CNN+Vetor,FastText,Skip-Gram,81.33%,81.15%,81.50%,0.25%
+Sim,ELMo+Vetor,Word2Vec,CBoW,81.32%,81.03%,81.61%,0.41%
+Sim,ELMo+CNN+Vetor,GloVe,Sem Vetor,81.29%,80.98%,81.60%,0.44%
+Não,ELMo+CNN+Vetor,FastText,Skip-Gram,81.28%,81.15%,81.42%,0.19%
+Sim,ELMo+CNN+Vetor,Wang2Vec,Skip-Gram,81.27%,80.77%,81.77%,0.71%
+Sim,ELMo+CNN+Vetor,Word2Vec,CBoW,81.25%,81.04%,81.45%,0.29%
+Não,ELMo,Sem Vetor,Sem Vetor,81.23%,80.84%,81.62%,0.55%
+Sim,ELMo,Sem Vetor,Sem Vetor,81.18%,80.94%,81.41%,0.34%
+Não,ELMo+Vetor,Wang2Vec,CBoW,81.16%,80.77%,81.55%,0.55%
+Sim,ELMo+Vetor,FastText,Skip-Gram,81.12%,81.08%,81.17%,0.06%
+Sim,ELMo+Vetor,FastText,CBoW,81.12%,80.86%,81.38%,0.36%
+Sim,ELMo+CNN+Vetor,FastText,CBoW,81.11%,80.81%,81.41%,0.42%
+Não,ELMo+CNN+Vetor,Wang2Vec,CBoW,80.93%,80.72%,81.14%,0.30%
+Não,ELMo+CNN+Vetor,FastText,CBoW,80.90%,80.74%,81.05%,0.22%
+Não,ELMo+Vetor,Word2Vec,Skip-Gram,80.83%,80.48%,81.17%,0.49%
+Não,ELMo+CNN+Vetor,GloVe,Sem Vetor,80.79%,80.21%,81.37%,0.82%
+Não,ELMo+Vetor,FastText,Skip-Gram,80.79%,80.73%,80.85%,0.08%
+Não,ELMo+CNN+Vetor,Word2Vec,CBoW,80.72%,80.69%,80.74%,0.03%
+Não,ELMo+Vetor,Word2Vec,CBoW,80.60%,79.84%,81.36%,1.08%
+Não,ELMo+Vetor,FastText,CBoW,80.53%,80.18%,80.88%,0.49%
+Não,ELMo+CNN,Sem Vetor,Sem Vetor,80.29%,79.41%,81.17%,1.24%
