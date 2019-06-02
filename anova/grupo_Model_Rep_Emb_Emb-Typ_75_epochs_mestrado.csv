@@ -1,0 +1,2 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Não,ELMo+Vetor,Wang2Vec,Skip-Gram,78.46%,74.47%,82.04%,3.17%
