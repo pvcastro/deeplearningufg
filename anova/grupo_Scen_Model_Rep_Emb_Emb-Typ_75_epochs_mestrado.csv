@@ -1,3 +1,4 @@
 Cenário,Ajuste Fino,Representação,Vetor,Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Seletivo,Sim,ELMo+Vetor,Wang2Vec,Skip-Gram,81.72%,80.81%,82.44%,0.60%
 Seletivo,Não,ELMo+Vetor,Wang2Vec,Skip-Gram,81.25%,80.23%,82.04%,0.55%
 Total,Não,ELMo+Vetor,Wang2Vec,Skip-Gram,75.30%,74.50%,76.34%,0.59%
