@@ -1,0 +1,33 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Não,ELMo+CNN+Vetor,Word2Vec,CBoW,68.53%,65.60%,70.81%,1.46%
+Não,ELMo+CNN+Vetor,Word2Vec,Skip-Gram,68.43%,65.48%,70.56%,1.48%
+Não,ELMo+Vetor,Wang2Vec,Skip-Gram,68.28%,66.26%,71.01%,1.30%
+Sim,ELMo+CNN+Vetor,Wang2Vec,Skip-Gram,68.24%,66.76%,70.28%,0.91%
+Sim,ELMo+CNN+Vetor,GloVe,Sem Vetor,68.22%,65.86%,70.24%,1.16%
+Não,ELMo+CNN+Vetor,Wang2Vec,CBoW,68.13%,64.83%,70.43%,1.54%
+Não,ELMo+Vetor,GloVe,Sem Vetor,68.08%,66.30%,71.01%,1.29%
+Não,ELMo+CNN+Vetor,Wang2Vec,Skip-Gram,68.06%,63.49%,70.60%,1.80%
+Não,ELMo+Vetor,FastText,Skip-Gram,67.84%,66.09%,70.46%,1.21%
+Sim,ELMo+CNN+Vetor,Word2Vec,CBoW,67.78%,65.80%,69.73%,1.09%
+Sim,ELMo+CNN+Vetor,Wang2Vec,CBoW,67.75%,66.29%,69.71%,0.99%
+Sim,ELMo+CNN+Vetor,Word2Vec,Skip-Gram,67.72%,65.50%,69.76%,1.10%
+Não,ELMo+Vetor,Word2Vec,CBoW,67.65%,65.83%,70.91%,1.32%
+Não,ELMo+CNN+Vetor,GloVe,Sem Vetor,67.63%,64.21%,70.80%,1.81%
+Sim,ELMo+CNN+Vetor,FastText,Skip-Gram,67.54%,65.28%,69.47%,1.12%
+Não,ELMo+Vetor,Wang2Vec,CBoW,67.51%,66.02%,70.59%,1.27%
+Não,ELMo+Vetor,Word2Vec,Skip-Gram,67.37%,65.42%,70.81%,1.42%
+Sim,ELMo+Vetor,Word2Vec,CBoW,67.33%,66.26%,68.13%,0.54%
+Não,ELMo+CNN+Vetor,FastText,Skip-Gram,67.24%,62.54%,70.47%,2.08%
+Sim,ELMo+Vetor,Word2Vec,Skip-Gram,67.23%,65.75%,69.17%,0.95%
+Não,ELMo,Sem Vetor,Sem Vetor,67.20%,64.31%,69.68%,1.88%
+Sim,ELMo+Vetor,Wang2Vec,CBoW,67.12%,65.86%,68.04%,0.73%
+Sim,ELMo+Vetor,Wang2Vec,Skip-Gram,67.11%,65.13%,68.35%,0.91%
+Sim,ELMo+Vetor,GloVe,Sem Vetor,67.11%,65.71%,69.90%,1.26%
+Sim,ELMo+Vetor,FastText,Skip-Gram,67.11%,65.91%,68.89%,0.79%
+Sim,ELMo,Sem Vetor,Sem Vetor,64.97%,60.67%,67.02%,1.78%
+Não,ELMo+CNN,Sem Vetor,Sem Vetor,64.52%,61.33%,70.71%,2.59%
+Sim,ELMo+CNN,Sem Vetor,Sem Vetor,63.05%,58.58%,66.98%,2.33%
+Sim,ELMo+CNN+Vetor,FastText,CBoW,60.19%,54.27%,66.27%,2.71%
+Não,ELMo+CNN+Vetor,FastText,CBoW,59.33%,54.44%,65.77%,3.04%
+Sim,ELMo+Vetor,FastText,CBoW,58.57%,52.90%,63.49%,2.58%
+Não,ELMo+Vetor,FastText,CBoW,56.38%,49.19%,65.91%,3.83%
