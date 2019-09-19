@@ -1,0 +1,4 @@
+Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Skip-Gram,80.20%,75.41%,81.91%,0.81%
+Sem Vetor,80.19%,76.65%,81.90%,0.74%
+CBoW,79.95%,76.49%,82.32%,0.92%

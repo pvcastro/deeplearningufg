@@ -1,0 +1,6 @@
+Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+10B-jur2vec-nilc-brwac,86.36%,84.40%,88.63%,1.63%
+5B-jur2vec-nilc-1,84.94%,84.69%,85.33%,0.24%
+5B-jur2vec-nilc-3,83.95%,83.55%,84.26%,0.29%
+5B-jur2vec-nilc-2,83.68%,83.55%,83.98%,0.17%
+Normal,81.33%,81.14%,81.53%,0.15%

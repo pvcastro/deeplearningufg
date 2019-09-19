@@ -1,0 +1,19 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,Domínio Específico,F-Score,Mínimo,Máximo,Desvio Padrão
+Sim,ELMo+Vetor,GloVe,Sem Vetor,Sim,88.68%,88.22%,89.06%,0.19%
+Sim,ELMo+Vetor,GloVe,Sem Vetor,Não,88.68%,88.64%,88.86%,0.07%
+Sim,ELMo+CNN+Vetor,GloVe,Sem Vetor,Não,88.67%,88.45%,89.15%,0.19%
+Não,ELMo+CNN+Vetor,GloVe,Sem Vetor,Não,88.67%,88.13%,89.12%,0.28%
+Sim,ELMo,Sem Vetor,Sem Vetor,Não,88.54%,88.18%,88.92%,0.24%
+Não,ELMo+Vetor,GloVe,Sem Vetor,Não,88.54%,88.18%,88.75%,0.13%
+Sim,ELMo+CNN+Vetor,GloVe,Sem Vetor,Sim,88.50%,88.07%,89.14%,0.39%
+Não,ELMo,Sem Vetor,Sem Vetor,Não,88.46%,88.32%,88.63%,0.08%
+Não,ELMo+CNN+Vetor,GloVe,Sem Vetor,Sim,88.37%,87.83%,88.74%,0.35%
+Sim,ELMo+CNN,Sem Vetor,Sem Vetor,Não,88.32%,87.65%,88.75%,0.29%
+Não,ELMo+Vetor,GloVe,Sem Vetor,Sim,88.27%,88.24%,88.39%,0.05%
+Não,ELMo+CNN,Sem Vetor,Sem Vetor,Não,88.14%,87.46%,88.49%,0.33%
+Geral,ELMo+Vetor,GloVe,Sem Vetor,Não,87.15%,87.15%,87.15%,0.00%
+Geral,ELMo+CNN+Vetor,GloVe,Sem Vetor,Sim,86.35%,85.75%,87.08%,0.36%
+Geral,ELMo+Vetor,GloVe,Sem Vetor,Sim,86.34%,86.34%,86.34%,0.00%
+Geral,ELMo+CNN+Vetor,GloVe,Sem Vetor,Não,86.26%,85.51%,86.82%,0.31%
+Geral,ELMo,Sem Vetor,Sem Vetor,Não,84.56%,84.54%,84.76%,0.06%
+Geral,ELMo+CNN,Sem Vetor,Sem Vetor,Não,84.13%,83.38%,84.96%,0.46%

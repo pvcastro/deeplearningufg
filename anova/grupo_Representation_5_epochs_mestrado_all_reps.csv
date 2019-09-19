@@ -1,0 +1,5 @@
+Representação,F-Score,Mínimo,Máximo,Desvio Padrão
+ELMo+CNN+Vetor,80.23%,75.41%,82.32%,0.90%
+ELMo+CNN,80.13%,78.07%,81.59%,0.73%
+ELMo+Vetor,80.00%,76.81%,81.85%,0.80%
+ELMo,79.95%,76.65%,81.51%,0.74%

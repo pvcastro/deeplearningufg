@@ -1,0 +1,10 @@
+Vetor,Domínio Específico,F-Score,Mínimo,Máximo,Desvio Padrão
+GloVe,Não,88.00%,85.51%,89.15%,0.97%
+Word2Vec,Não,87.80%,85.45%,89.07%,0.96%
+Wang2Vec,Sim,87.79%,85.94%,88.78%,0.74%
+GloVe,Sim,87.75%,85.75%,89.14%,1.04%
+Wang2Vec,Não,87.69%,85.56%,88.96%,0.94%
+Word2Vec,Sim,87.66%,85.18%,89.00%,0.93%
+FastText,Não,87.39%,84.55%,88.88%,1.09%
+FastText,Sim,87.28%,84.31%,88.64%,1.16%
+Sem Vetor,Não,87.02%,83.38%,88.92%,1.94%

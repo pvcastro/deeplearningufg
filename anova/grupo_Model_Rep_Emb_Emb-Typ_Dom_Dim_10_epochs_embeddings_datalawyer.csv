@@ -1,0 +1,7 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,Domínio Específico,Dimensão,F-Score,Mínimo,Máximo,Desvio Padrão
+Sim,Embeddings,GloVe,10B-jur2vec-nilc-brwac,Sim,300,87.89%,87.35%,88.63%,0.46%
+Sim,Embeddings,GloVe,5B-jur2vec-nilc-1,Sim,100,84.94%,84.69%,85.33%,0.24%
+Sim,Embeddings,GloVe,10B-jur2vec-nilc-brwac,Sim,100,84.83%,84.40%,85.03%,0.23%
+Sim,Embeddings,GloVe,5B-jur2vec-nilc-3,Sim,100,83.95%,83.55%,84.26%,0.29%
+Sim,Embeddings,GloVe,5B-jur2vec-nilc-2,Sim,100,83.68%,83.55%,83.98%,0.17%
+Não,Embeddings,GloVe,Sem Vetor,Não,100,81.33%,81.14%,81.53%,0.15%
