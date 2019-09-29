@@ -1,0 +1,5 @@
+Representação,Cenário,F-Score,Mínimo,Máximo,Desvio Padrão
+ELMo+CNN+Wang2Vec,selective,83.16%,82.82%,83.55%,0.22%
+ELMo+GloVe,selective,82.75%,82.56%,82.99%,0.14%
+ELMo+CNN+Wang2Vec,total,77.81%,77.33%,78.19%,0.27%
+ELMo+GloVe,total,77.35%,76.93%,77.70%,0.25%

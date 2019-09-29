@@ -1,3 +1,5 @@
 Vetor,Domínio Específico,F-Score,Mínimo,Máximo,Desvio Padrão
-GloVe,Sim,85.06%,83.55%,88.63%,1.55%
-GloVe,Não,81.33%,81.14%,81.53%,0.15%
+GloVe,Não,91.23%,90.44%,91.94%,0.39%
+GloVe,Sim,91.21%,90.32%,91.92%,0.35%
+Wang2Vec,Sim,91.16%,90.41%,91.88%,0.32%
+Wang2Vec,Não,91.07%,90.34%,91.83%,0.37%

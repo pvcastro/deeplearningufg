@@ -1,0 +1,6 @@
+Ajuste Fino,F-Score,Mínimo,Máximo,Desvio Padrão
+harem-wikibrwac-ft,81.60%,79.64%,82.94%,0.58%
+harem-ft1epoch,81.09%,78.55%,83.10%,0.72%
+harem-wikibrwac,81.06%,78.66%,82.71%,0.77%
+Sim,80.80%,77.84%,82.56%,0.69%
+Não,80.70%,78.24%,82.92%,0.66%

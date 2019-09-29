@@ -1,2 +1,4 @@
-Ajuste Fino,F-Score,Mínimo,Máximo,Desvio Padrão
-Não,84.47%,81.14%,88.63%,2.05%
+Modelo,F-Score,Mínimo,Máximo,Desvio Padrão
+ELMo-af Jurídico,88.28%,87.13%,89.15%,0.37%
+ELMo Jurídico,88.25%,86.93%,89.12%,0.37%
+ELMo Wikipedia,86.27%,83.38%,87.58%,0.83%

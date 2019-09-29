@@ -1,0 +1,5 @@
+Corpus,Ajuste Fino,F-Score,Mínimo,Máximo,Desvio Padrão
+brWaC,Sim,81.60%,79.64%,82.94%,0.58%
+brWaC,Não,81.06%,78.66%,82.71%,0.77%
+Wikipedia,Sim,80.80%,77.84%,82.56%,0.69%
+Wikipedia,Não,80.70%,78.24%,82.92%,0.66%

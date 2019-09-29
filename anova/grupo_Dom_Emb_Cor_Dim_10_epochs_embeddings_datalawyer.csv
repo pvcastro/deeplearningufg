@@ -1,0 +1,9 @@
+Ajuste Fino,Vetor,Corpus,Dimensão,F-Score,Mínimo,Máximo,Desvio Padrão
+Não,GloVe,Nilc,300,91.39%,90.61%,91.94%,0.39%
+Sim,GloVe,10B-jur2vec-nilc-brwac,300,91.30%,90.32%,91.92%,0.36%
+Não,Wang2Vec,Nilc,300,91.25%,90.70%,91.83%,0.32%
+Sim,Wang2Vec,10B-jur2vec-nilc-brwac,300,91.17%,90.71%,91.80%,0.32%
+Sim,Wang2Vec,10B-jur2vec-nilc-brwac,100,91.15%,90.41%,91.88%,0.32%
+Sim,GloVe,10B-jur2vec-nilc-brwac,100,91.12%,90.58%,91.81%,0.33%
+Não,GloVe,Nilc,100,91.08%,90.44%,91.62%,0.34%
+Não,Wang2Vec,Nilc,100,90.89%,90.34%,91.56%,0.34%

@@ -1,0 +1,11 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,Dimensão,F-Score,Mínimo,Máximo,Desvio Padrão
+Não,Embeddings,Wang2Vec,Skip-Gram,300,86.84%,86.67%,86.99%,0.13%
+Sim,Embeddings,GloVe,Sem Vetor,300,86.77%,86.66%,86.93%,0.12%
+Sim,Embeddings,Wang2Vec,Skip-Gram,300,86.29%,86.10%,86.47%,0.13%
+Sim,Embeddings,Wang2Vec,CBoW,100,85.71%,85.25%,86.23%,0.31%
+Não,Embeddings,Wang2Vec,CBoW,300,85.55%,85.35%,85.79%,0.17%
+Sim,Embeddings,Wang2Vec,Skip-Gram,100,84.87%,84.02%,85.61%,0.64%
+Não,Embeddings,Wang2Vec,CBoW,100,84.40%,84.18%,84.79%,0.21%
+Não,Embeddings,Wang2Vec,Skip-Gram,100,84.08%,83.53%,84.75%,0.43%
+Sim,Embeddings,GloVe,Sem Vetor,100,83.64%,82.68%,84.52%,0.47%
+Não,Embeddings,GloVe,Sem Vetor,100,82.14%,81.53%,82.45%,0.35%

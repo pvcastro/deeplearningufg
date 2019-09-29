@@ -1,2 +1,5 @@
 Representação,F-Score,Mínimo,Máximo,Desvio Padrão
-Embeddings,84.47%,81.14%,88.63%,2.05%
+ELMo+Vetor,87.72%,85.25%,89.06%,0.89%
+ELMo+CNN+Vetor,87.56%,84.31%,89.15%,1.10%
+ELMo,87.19%,84.54%,88.92%,1.89%
+ELMo+CNN,86.86%,83.38%,88.75%,1.99%

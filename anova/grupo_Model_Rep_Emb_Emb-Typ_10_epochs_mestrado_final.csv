@@ -1,0 +1,8 @@
+Ajuste Fino,Representação,Vetor,Tipo de Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+harem-wikibrwac-ft,ELMo+Vetor,Wang2Vec,Skip-Gram,81.74%,80.20%,82.82%,0.57%
+harem-wikibrwac-ft,ELMo+Vetor,GloVe,GloVe,81.74%,80.09%,82.85%,0.50%
+harem-wikibrwac-ft,ELMo+Vetor,FastText,Skip-Gram,81.55%,80.34%,82.32%,0.53%
+harem-wikibrwac-ft,ELMo+Vetor,Word2Vec,CBoW,81.55%,80.27%,82.43%,0.57%
+harem-wikibrwac-ft,ELMo+Vetor,Word2Vec,Skip-Gram,81.54%,79.80%,82.65%,0.66%
+harem-wikibrwac-ft,ELMo+Vetor,Wang2Vec,CBoW,81.53%,79.64%,82.66%,0.62%
+harem-wikibrwac-ft,ELMo+Vetor,FastText,CBoW,81.25%,79.97%,82.46%,0.57%

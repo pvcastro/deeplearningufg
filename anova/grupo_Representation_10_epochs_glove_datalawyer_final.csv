@@ -1,0 +1,5 @@
+Representação,F-Score,Mínimo,Máximo,Desvio Padrão
+ELMo+CNN+GloVe,91.43%,91.00%,92.05%,0.30%
+ELMo+GloVe,91.35%,90.81%,91.81%,0.31%
+ELMo+GloVe-jur,91.33%,90.51%,91.73%,0.33%
+ELMo+CNN+GloVe-jur,91.28%,90.93%,91.59%,0.20%

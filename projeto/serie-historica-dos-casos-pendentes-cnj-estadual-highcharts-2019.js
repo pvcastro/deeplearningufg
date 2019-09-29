@@ -32,16 +32,16 @@ Highcharts.chart('container', {
     series: [ {
         name: "Casos pendentes",
           data: [
-		    { y: 49.4, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 50.3, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 52.3, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 54.1, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 58.0, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 57.3, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 62.1, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 63.2, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 63.0, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }, 
-            { y: 63.0, dataLabels: { x: 0, y: 30, style: {color: 'blue'} } }
+		    { y: 49.4, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 50.3, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 52.3, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 54.1, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 58.0, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 57.3, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 62.1, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 63.2, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 63.0, dataLabels: { style: {color: 'blue'} } }, 
+            { y: 63.0, dataLabels: { style: {color: 'blue'} } }
 		]
     }, {
         name: "Processos baixados",

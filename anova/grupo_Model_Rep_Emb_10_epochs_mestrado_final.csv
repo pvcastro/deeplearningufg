@@ -1,0 +1,21 @@
+Ajuste Fino,Representação,Vetor,F-Score,Mínimo,Máximo,Desvio Padrão
+Sim,ELMo+Vetor,GloVe,81.45%,79.16%,82.85%,0.71%
+Sim,ELMo+CNN+Vetor,GloVe,81.40%,79.36%,82.77%,0.61%
+Sim,ELMo+CNN+Vetor,Wang2Vec,81.35%,79.55%,82.88%,0.78%
+Sim,ELMo+Vetor,Wang2Vec,81.34%,79.37%,82.82%,0.65%
+Sim,ELMo+Vetor,Word2Vec,81.29%,79.36%,82.65%,0.64%
+Não,ELMo+Vetor,GloVe,81.28%,80.19%,82.37%,0.52%
+Não,ELMo+Vetor,Wang2Vec,81.27%,79.72%,82.57%,0.56%
+Sim,ELMo+CNN+Vetor,Word2Vec,81.24%,79.25%,82.94%,0.78%
+Não,ELMo+Vetor,Word2Vec,81.14%,78.72%,82.55%,0.70%
+Não,ELMo,Sem Vetor,81.13%,79.47%,82.43%,0.67%
+Não,ELMo+CNN,Sem Vetor,81.05%,79.81%,82.65%,0.63%
+Sim,ELMo+CNN+Vetor,FastText,81.03%,79.30%,82.78%,0.71%
+Sim,ELMo,Sem Vetor,81.00%,79.36%,82.35%,0.75%
+Sim,ELMo+Vetor,FastText,80.98%,77.84%,82.56%,0.81%
+Sim,ELMo+CNN,Sem Vetor,80.91%,78.40%,82.49%,0.87%
+Não,ELMo+Vetor,FastText,80.87%,78.75%,82.30%,0.73%
+Não,ELMo+CNN+Vetor,Wang2Vec,80.85%,79.41%,82.92%,0.62%
+Não,ELMo+CNN+Vetor,GloVe,80.83%,78.68%,82.30%,0.64%
+Não,ELMo+CNN+Vetor,Word2Vec,80.48%,79.00%,82.51%,0.65%
+Não,ELMo+CNN+Vetor,FastText,80.29%,78.24%,82.16%,0.77%
