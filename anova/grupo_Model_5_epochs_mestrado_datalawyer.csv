@@ -2,3 +2,4 @@ Modelo,F-Score,Mínimo,Máximo,Desvio Padrão
 ELMo-af Jurídico,88.28%,87.13%,89.15%,0.37%
 ELMo Jurídico,88.25%,86.93%,89.12%,0.37%
 ELMo Wikipedia,86.27%,83.38%,87.58%,0.83%
+ELMo brWaC,85.70%,84.07%,87.36%,0.71%

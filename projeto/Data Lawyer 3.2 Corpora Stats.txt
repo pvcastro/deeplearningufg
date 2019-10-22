@@ -1,0 +1,144 @@
+Analyzing dataset/datalawyer/versao_3.2/conll2002/full_no_values.conll
+
+8098 sentences
+331290 tokens
+8568 entities
+38751 entity tokens
+
+FUNCAO: 1438 entities (2935 tokens)
+FUNDAMENTO: 2626 entities (19789 tokens)
+LOCAL: 272 entities (993 tokens)
+ORGANIZACAO: 1773 entities (5705 tokens)
+PESSOA: 1582 entities (5578 tokens)
+TRIBUNAL: 529 entities (1928 tokens)
+VALOR_ACORDO: 22 entities (65 tokens)
+VALOR_CAUSA: 16 entities (46 tokens)
+VALOR_CONDENACAO: 33 entities (91 tokens)
+VALOR_CUSTAS: 68 entities (191 tokens)
+VARA: 209 entities (1430 tokens)
+
+628 sentences with length greater than 100
+159 sentences with length greater than 200
+24 sentences with length greater than 500
+8 sentences with length greater than 1000
+
+Analyzing dataset/datalawyer/versao_3.2/conll2002/full.conll
+
+9460 sentences
+470172 tokens
+12519 entities
+54019 entity tokens
+
+FUNCAO: 1686 entities (3370 tokens)
+FUNDAMENTO: 3331 entities (24701 tokens)
+LOCAL: 392 entities (1291 tokens)
+ORGANIZACAO: 2317 entities (7812 tokens)
+PESSOA: 2067 entities (7171 tokens)
+TRIBUNAL: 629 entities (2531 tokens)
+VALOR_ACORDO: 337 entities (1010 tokens)
+VALOR_CAUSA: 237 entities (711 tokens)
+VALOR_CONDENACAO: 457 entities (1361 tokens)
+VALOR_CUSTAS: 829 entities (2465 tokens)
+VARA: 237 entities (1596 tokens)
+
+865 sentences with length greater than 100
+304 sentences with length greater than 200
+61 sentences with length greater than 500
+20 sentences with length greater than 1000
+
+
+Analyzing dataset/datalawyer/versao_3.2/conll2003/full.conll
+
+14268 sentences
+466597 tokens
+12538 entities
+53711 entity tokens
+
+FUNCAO: 1686 entities (3322 tokens)
+FUNDAMENTO: 3349 entities (24475 tokens)
+LOCAL: 392 entities (1285 tokens)
+ORGANIZACAO: 2317 entities (7790 tokens)
+PESSOA: 2067 entities (7170 tokens)
+TRIBUNAL: 629 entities (2527 tokens)
+VALOR_ACORDO: 337 entities (1010 tokens)
+VALOR_CAUSA: 237 entities (711 tokens)
+VALOR_CONDENACAO: 457 entities (1361 tokens)
+VALOR_CUSTAS: 829 entities (2465 tokens)
+VARA: 238 entities (1595 tokens)
+
+704 sentences with length greater than 100
+9 sentences with length greater than 200
+0 sentences with length greater than 500
+0 sentences with length greater than 1000
+
+Analyzing dataset/datalawyer/versao_3.2/conll2003/train.conll
+
+9988 sentences
+327370 tokens
+8653 entities
+37152 entity tokens
+
+FUNCAO: 1159 entities (2375 tokens)
+FUNDAMENTO: 2293 entities (16806 tokens)
+LOCAL: 299 entities (952 tokens)
+ORGANIZACAO: 1606 entities (5469 tokens)
+PESSOA: 1414 entities (4895 tokens)
+TRIBUNAL: 427 entities (1706 tokens)
+VALOR_ACORDO: 238 entities (713 tokens)
+VALOR_CAUSA: 155 entities (464 tokens)
+VALOR_CONDENACAO: 324 entities (963 tokens)
+VALOR_CUSTAS: 571 entities (1700 tokens)
+VARA: 167 entities (1109 tokens)
+
+487 sentences with length greater than 100
+3 sentences with length greater than 200
+0 sentences with length greater than 500
+0 sentences with length greater than 1000
+
+Analyzing dataset/datalawyer/versao_3.2/conll2003/dev.conll
+
+2140 sentences
+69060 tokens
+1986 entities
+8523 entity tokens
+
+FUNCAO: 276 entities (517 tokens)
+FUNDAMENTO: 556 entities (4021 tokens)
+LOCAL: 39 entities (177 tokens)
+ORGANIZACAO: 354 entities (1130 tokens)
+PESSOA: 362 entities (1261 tokens)
+TRIBUNAL: 102 entities (377 tokens)
+VALOR_ACORDO: 46 entities (138 tokens)
+VALOR_CAUSA: 42 entities (127 tokens)
+VALOR_CONDENACAO: 58 entities (172 tokens)
+VALOR_CUSTAS: 112 entities (331 tokens)
+VARA: 39 entities (272 tokens)
+
+116 sentences with length greater than 100
+3 sentences with length greater than 200
+0 sentences with length greater than 500
+0 sentences with length greater than 1000
+
+Analyzing dataset/datalawyer/versao_3.2/conll2003/test.conll
+
+2140 sentences
+70167 tokens
+1899 entities
+8036 entity tokens
+
+FUNCAO: 251 entities (430 tokens)
+FUNDAMENTO: 500 entities (3648 tokens)
+LOCAL: 54 entities (156 tokens)
+ORGANIZACAO: 357 entities (1191 tokens)
+PESSOA: 291 entities (1014 tokens)
+TRIBUNAL: 100 entities (444 tokens)
+VALOR_ACORDO: 53 entities (159 tokens)
+VALOR_CAUSA: 40 entities (120 tokens)
+VALOR_CONDENACAO: 75 entities (226 tokens)
+VALOR_CUSTAS: 146 entities (434 tokens)
+VARA: 32 entities (214 tokens)
+
+101 sentences with length greater than 100
+3 sentences with length greater than 200
+0 sentences with length greater than 500
+0 sentences with length greater than 1000
