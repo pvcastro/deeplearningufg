@@ -602,7 +602,8 @@ DA O O O
 INSTITUIÇÃO O O O
 DE O O O
 ENSINO O O O
-Art. O O O
+Art O O O
+. O O O
 7o O O O
 São O O O
 obrigações O O O
@@ -679,7 +680,6 @@ e O O O
 calendário O O O
 escolar O O O
 ; O O O
-
 II O O O
 – O O O
 avaliar O O O
@@ -701,7 +701,6 @@ profissional O O O
 do O O O
 educando O O O
 ; O O O
-
 III O O O
 – O O O
 indicar O O O
@@ -727,7 +726,6 @@ atividades O O O
 do O O O
 estagiário O O O
 ; O O O
-
 IV O O O
 – O O O
 exigir O O O
@@ -753,7 +751,6 @@ relatório O O O
 das O O O
 atividades O O O
 ; O O O
-
 V O O O
 – O O O
 zelar O O O
@@ -778,7 +775,6 @@ de O O O
 suas O O O
 normas O O O
 ; O O O
-
 VI O O O
 – O O O
 elaborar O O O
@@ -794,7 +790,6 @@ de O O O
 seus O O O
 educandos O O O
 ; O O O
-
 VII O O O
 – O O O
 comunicar O O O
@@ -818,8 +813,8 @@ de O O O
 avaliações O O O
 escolares O O O
 ou O O O
-acadêmicas. O O O
-
+acadêmicas O O O
+. O O O
 
 É O O O
 a O O O
@@ -8068,7 +8063,8 @@ o O O O
 cargo O O O
 '' O O O
 ( O O O
-fl. O O O
+fl O O O
+. O O O
 19 O O O
 ) O O O
 ; O O O
@@ -8115,7 +8111,8 @@ dobro O O O
 pretendido O O O
 '' O O O
 ( O O O
-fl. O O O
+fl O O O
+. O O O
 21 O O O
 ) O O O
 ; O O O
@@ -8176,8 +8173,8 @@ por O O O
 diversas O O O
 vezes O O O
 promovido O O O
-''. O O O
-
+'' O O O
+. O O O
 
 p/ O O O
 Doralúcia O O B-PESSOA
@@ -28222,7 +28219,8 @@ recurso O O O
 especial O O O
 eleitoral O O O
 ( O O O
-fls. O O O
+fls O O O
+. O O O
 162-181 O O O
 ) O O O
 - O O O
@@ -28230,13 +28228,13 @@ aparelhado O O O
 na O O O
 afronta O O O
 aos O O O
-arts. O O B-LEGISLACAO
+arts O O B-LEGISLACAO
+. O O I-LEGISLACAO
 275 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Código O O I-LEGISLACAO
 Eleitoral O O I-LEGISLACAO
 ; O O O
-
 374 O O B-LEGISLACAO
 , O O I-LEGISLACAO
 1 O O I-LEGISLACAO
@@ -28253,7 +28251,6 @@ e O O I-LEGISLACAO
 do O O I-LEGISLACAO
 CPCI2015 O O I-LEGISLACAO
 ; O O O
-
 60 O O B-LEGISLACAO
 , O O I-LEGISLACAO
 73 O O I-LEGISLACAO
@@ -28272,7 +28269,6 @@ Lei O O I-LEGISLACAO
 das O O I-LEGISLACAO
 Eleições O O I-LEGISLACAO
 ; O O O
-
 e O O O
 27 O O B-LEGISLACAO
 , O O I-LEGISLACAO
@@ -28343,12 +28339,11 @@ de O O O
 2016 O O B-TEMPO
 '' O O O
 ( O O O
-fI. O O O
-
+fI O O O
+. O O O
 172 O O O
 ) O O O
 ; O O O
-
 não O O O
 ficou O O O
 comprovado O O O
@@ -28357,7 +28352,8 @@ benefício O O O
 partidário O O O
 previsto O O O
 no O O O
-ad. O O B-LEGISLACAO
+ad O O B-LEGISLACAO
+. O O I-LEGISLACAO
 73 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 § O O I-LEGISLACAO
@@ -28388,7 +28384,8 @@ da O O O
 norma O O O
 disposta O O O
 no O O O
-ad. O O O
+ad O O O
+. O O O
 96 O O O
 , O O O
 § O O O
@@ -28398,7 +28395,6 @@ da O O O
 mencionada O O O
 lei O O O
 ; O O O
-
 não O O O
 há O O O
 prova O O O
@@ -28444,7 +28440,6 @@ filiado O O O
 ao O O O
 PP O O B-ORGANIZACAO
 ; O O O
-
 é O O O
 incontroversa O O O
 a O O O
@@ -28465,8 +28460,8 @@ PSD O O I-ORGANIZACAO
 ante O O O
 a O O O
 sua O O O
-notoriedade. O O O
-
+notoriedade O O O
+. O O O
 
 VIOLAÇÃO O O O
 AO O O O
@@ -36975,7 +36970,8 @@ do O O O
 inciso O O O
 II O O O
 do O O O
-art. O O O
+art O O O
+. O O O
 73 O O O
 , O O O
 a O O O
@@ -36988,14 +36984,15 @@ ser O O O
 a O O O
 seguinte O O O
 ( O O O
-fi. O O O
-
+fi O O O
+. O O O
 131 O O O
 ) O O O
 : O O O
-Art. O O O
-73. O O O
-
+Art O O O
+. O O O
+73 O O O
+. O O O
 Compete O O O
 ao O O O
 Conselho O O O
@@ -37022,7 +37019,6 @@ dos O O O
 Diretórios O O O
 Estaduais O O O
 ; O O O
-
 II O O O
 - O O O
 elaborar O O O
@@ -37031,7 +37027,6 @@ seu O O O
 regimento O O O
 interno O O O
 ; O O O
-
 III O O O
 - O O O
 promover O O O
@@ -37061,7 +37056,6 @@ intervenção O O O
 e O O O
 reorganização O O O
 ; O O O
-
 IV O O O
 - O O O
 traçar O O O
@@ -37081,7 +37075,6 @@ representantes O O O
 do O O O
 Partido O O O
 ; O O O
-
 V O O O
 - O O O
 definir O O O
@@ -37107,7 +37100,6 @@ dos O O O
 órgãos O O O
 partidários O O O
 ; O O O
-
 VI O O O
 - O O O
 fixar O O O
@@ -37133,7 +37125,6 @@ dos O O O
 seus O O O
 membros O O O
 ; O O O
-
 VII O O O
 - O O O
 regulamentar O O O
@@ -37158,7 +37149,8 @@ dos O O O
 demais O O O
 incisos O O O
 do O O O
-art. O O O
+art O O O
+. O O O
 73 O O O
 do O O O
 Estatuto O O O
@@ -37174,8 +37166,8 @@ menção O O O
 revogação O O O
 do O O O
 inciso O O O
-II. O O O
-
+II O O O
+. O O O
 
 Há O O O
 de O O O
@@ -46176,7 +46168,8 @@ de O O O
 quintos/décimos O O O
 . O O O
 
-2.4. O O O
+2.4 O O O
+. O O O
 Após O O O
 a O O O
 oitiva O O O
@@ -46298,7 +46291,6 @@ Janeiro O O I-LOCAL
 1ª O O B-ORGANIZACAO
 CJM/RJ O O I-ORGANIZACAO
 ; O O O
-
 8.2. O O O
 determinar O O O
 ao O O O
@@ -46337,7 +46329,8 @@ omissa O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 8º O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -46401,7 +46394,6 @@ serviços O O O
 ou O O O
 materiais O O O
 ; O O O
-
 e O O O
 que O O O
 do O O O
@@ -46420,7 +46412,6 @@ meio O O O
 da O O O
 Secex/RJ O O B-ORGANIZACAO
 ; O O O
-
 8.3. O O O
 determinar O O O
 ao O O O
@@ -46434,8 +46425,8 @@ seguintes O O O
 dispositivos O O O
 legais O O O
 : O O O
-8.3.1. O O O
-
+8.3.1 O O O
+. O O O
 
 A O O O
 iniciativa O O O
@@ -73483,14 +73474,14 @@ inquirição O O O
 em O O O
 juízo O O O
 ( O O O
-fls. O O O
+fls O O O
+. O O O
 161/162 O O O
 ) O O O
 , O O O
 litteris O O O
 ; O O O
 ' O O O
-
 ( O O O
 ... O O O
 ) O O O
@@ -73507,7 +73498,6 @@ faltado O O O
 o O O O
 expediente O O O
 ; O O O
-
 que O O O
 no O O O
 primeiro O O O
@@ -73529,7 +73519,6 @@ não O O O
 obteve O O O
 êxito O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -73542,7 +73531,6 @@ contatar O O O
 o O O O
 desertor O O O
 ; O O O
-
 que O O O
 durante O O O
 o O O O
@@ -73561,7 +73549,6 @@ com O O O
 o O O O
 depoente O O O
 ; O O O
-
 que O O O
 a O O O
 mãe O O O
@@ -73588,7 +73575,6 @@ comparecer O O O
 ao O O O
 Quartel O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -73604,7 +73590,6 @@ retornasse O O O
 ao O O O
 Quartel O O O
 ; O O O
-
 que O O O
 explicou O O O
 a O O O
@@ -73621,7 +73606,6 @@ crime O O O
 de O O O
 deserção O O O
 ; O O O
-
 que O O O
 antes O O O
 dos O O O
@@ -73655,7 +73639,6 @@ namorada O O O
 estava O O O
 grávida O O O
 ; O O O
-
 que O O O
 a O O O
 mãe O O O
@@ -73681,7 +73664,6 @@ que O O O
 não O O O
 ocorreu O O O
 ; O O O
-
 que O O O
 em O O O
 razão O O O
@@ -73701,8 +73683,8 @@ mas O O O
 não O O O
 se O O O
 obteve O O O
-sucesso. O O O
-
+sucesso O O O
+. O O O
 
 2.6 O O O
 . O O O
@@ -85740,7 +85722,8 @@ CARMO O O I-PESSOA
 LIMA O O I-PESSOA
 declarou O O O
 ( O O O
-fls. O O O
+fls O O O
+. O O O
 76/77 O O O
 ) O O O
 , O O O
@@ -85789,7 +85772,6 @@ Jaconé O O B-LOCAL
 - O O O
 Saquarema/RJ O O B-LOCAL
 ; O O O
-
 que O O O
 a O O O
 senhora O O O
@@ -85803,7 +85785,6 @@ proprietária O O O
 desse O O O
 imóvel O O O
 ; O O O
-
 que O O O
 embarcou O O O
 na O O O
@@ -85839,7 +85820,6 @@ solicitação O O O
 desse O O O
 benefício O O O
 ; O O O
-
 que O O O
 seu O O O
 objetivo O O O
@@ -85885,7 +85865,6 @@ nesse O O O
 mesmo O O O
 local O O O
 ; O O O
-
 que O O O
 o O O O
 Acusado O O O
@@ -85896,7 +85875,6 @@ casa O O O
 do O O O
 depoente O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -85907,7 +85885,6 @@ com O O O
 muita O O O
 raiva O O O
 ; O O O
-
 que O O O
 a O O O
 partir O O O
@@ -85923,7 +85900,6 @@ morava O O O
 na O O O
 residência O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -86020,7 +85996,6 @@ endereço O O O
 do O O O
 depoente O O O
 ; O O O
-
 que O O O
 tais O O O
 contas O O O
@@ -86032,7 +86007,6 @@ Oficial O O O
 da O O O
 Marinha O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -86055,7 +86029,6 @@ seu O O O
 benefício O O O
 normalmente O O O
 ; O O O
-
 que O O O
 o O O O
 depoente O O O
@@ -86087,7 +86060,6 @@ Navio O O B-LOCAL
 São O O I-LOCAL
 Paulo O O I-LOCAL
 ; O O O
-
 que O O O
 acredita O O O
 que O O O
@@ -86107,8 +86079,8 @@ trabalhava O O O
 lá O O O
 ( O O O
 ... O O O
-). O O O
-
+) O O O
+. O O O
 
 A O O O
 Lei O O B-LEGISLACAO
@@ -86677,6 +86649,221 @@ joelho O O O
 esquerdo O O O
 . O O O
 
+O O O O
+documento O O O
+pode O O O
+ser O O O
+acessado O O O
+no O O O
+endereço O O O
+eletrônico O O O
+http O O O
+: O O O
+//www.stf.jus.br/portal/autenticacao/ O O O
+sob O O O
+o O O O
+número O O O
+3373814 O O O
+. O O O
+Supremo O O B-ORGANIZACAO
+Tribunal O O I-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+11/12/2012 O O B-TEMPO
+PRIMEIRA O O B-ORGANIZACAO
+TURMA O O I-ORGANIZACAO
+HABEAS O O B-JURISPRUDENCIA
+CORPUS O O I-JURISPRUDENCIA
+110.260 O O I-JURISPRUDENCIA
+SÃO O O B-LOCAL
+PAULO O O I-LOCAL
+V O O O
+O O O O
+T O O O
+O O O O
+O O O O
+SENHOR O O O
+MINISTRO O O O
+LUIZ O O B-PESSOA
+FUX O O I-PESSOA
+( O O O
+RELATOR O O O
+) O O O
+: O O O
+A O O O
+competência O O O
+originária O O O
+do O O O
+Supremo O O B-ORGANIZACAO
+Tribunal O O I-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+para O O O
+conhecer O O O
+e O O O
+julgar O O O
+habeas O O O
+corpus O O O
+está O O O
+definida O O O
+, O O O
+taxativamente O O O
+, O O O
+no O O O
+artigo O O B-LEGISLACAO
+102 O O I-LEGISLACAO
+, O O I-LEGISLACAO
+inciso O O I-LEGISLACAO
+I O O I-LEGISLACAO
+, O O I-LEGISLACAO
+alíneas O O I-LEGISLACAO
+“ O O I-LEGISLACAO
+d O O I-LEGISLACAO
+” O O I-LEGISLACAO
+e O O I-LEGISLACAO
+“ O O I-LEGISLACAO
+i O O I-LEGISLACAO
+” O O I-LEGISLACAO
+, O O I-LEGISLACAO
+da O O I-LEGISLACAO
+Constituição O O I-LEGISLACAO
+Federal O O I-LEGISLACAO
+, O O O
+verbis O O O
+: O O O
+Art O O O
+. O O O
+102 O O O
+. O O O
+Compete O O O
+ao O O O
+Supremo O O B-ORGANIZACAO
+Tribunal O O I-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+, O O O
+precipuamente O O O
+, O O O
+a O O O
+guarda O O O
+da O O O
+Constituição O O B-LEGISLACAO
+, O O O
+cabendo-lhe O O O
+: O O O
+I O O O
+processar O O O
+e O O O
+julgar O O O
+, O O O
+originariamente O O O
+: O O O
+… O O O
+d O O O
+) O O O
+o O O O
+habeas O O O
+corpus O O O
+, O O O
+sendo O O O
+paciente O O O
+qualquer O O O
+das O O O
+pessoas O O O
+referidas O O O
+nas O O O
+alíneas O O O
+anteriores O O O
+; O O O
+o O O O
+mandado O O O
+de O O O
+segurança O O O
+e O O O
+o O O O
+habeas O O O
+data O O O
+contra O O O
+atos O O O
+do O O O
+Presidente O O O
+da O O O
+República O O O
+, O O O
+das O O O
+Mesas O O O
+da O O O
+Câmara O O B-ORGANIZACAO
+e O O O
+do O O O
+Senado O O B-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+, O O O
+do O O O
+Tribunal O O B-ORGANIZACAO
+de O O I-ORGANIZACAO
+Contas O O I-ORGANIZACAO
+da O O I-ORGANIZACAO
+União O O I-ORGANIZACAO
+, O O O
+do O O O
+ProcuradorGeral O O O
+da O O O
+República O O O
+e O O O
+do O O O
+próprio O O O
+Supremo O O B-ORGANIZACAO
+Tribunal O O I-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+; O O O
+… O O O
+i O O O
+) O O O
+o O O O
+habeas O O O
+corpus O O O
+, O O O
+quando O O O
+o O O O
+coator O O O
+for O O O
+Tribunal O O O
+Superior O O O
+ou O O O
+quando O O O
+o O O O
+coator O O O
+ou O O O
+o O O O
+paciente O O O
+for O O O
+autoridade O O O
+ou O O O
+funcionário O O O
+cujos O O O
+atos O O O
+estejam O O O
+sujeitos O O O
+diretamente O O O
+à O O O
+jurisdição O O O
+do O O O
+Supremo O O B-ORGANIZACAO
+Tribunal O O I-ORGANIZACAO
+Federal O O I-ORGANIZACAO
+, O O O
+ou O O O
+se O O O
+trate O O O
+de O O O
+crime O O O
+sujeito O O O
+à O O O
+mesma O O O
+jurisdição O O O
+em O O O
+uma O O O
+única O O O
+instância O O O
+. O O O
 
 1 O O O
 . O O O
@@ -89950,7 +90137,8 @@ Tel. O O O
 Rio O O B-LOCAL
 BrancoAC O O I-LOCAL
 - O O O
-Mod. O O O
+Mod O O O
+. O O O
 500244 O O O
 - O O O
 Autos O O B-JURISPRUDENCIA
@@ -89982,7 +90170,6 @@ por O O O
 cada O O O
 mês O O O
 ; O O O
-
 b O O O
 ) O O O
 R O O O
@@ -90020,7 +90207,6 @@ novembro O O I-TEMPO
 de O O I-TEMPO
 2014 O O I-TEMPO
 ; O O O
-
 c O O O
 ) O O O
 R O O O
@@ -90054,7 +90240,6 @@ do O O O
 imóvel O O O
 ) O O O
 ; O O O
-
 d O O O
 ) O O O
 R O O O
@@ -90112,7 +90297,6 @@ partir O O O
 da O O O
 citação O O O
 ; O O O
-
 e O O O
 ) O O O
 10 O O O
@@ -90139,8 +90323,8 @@ a O O O
 serem O O O
 pagos O O O
 ao O O O
-autor. O O O
-
+autor O O O
+. O O O
 
 ( O O O
 Processo O O O
@@ -99810,7 +99994,8 @@ desaprovação O O O
 das O O O
 contas O O O
 ( O O O
-fls. O O O
+fls O O O
+. O O O
 476-87 O O O
 ) O O O
 : O O O
@@ -99851,8 +100036,8 @@ disposto O O O
 na O O O
 Res.-TSE O O B-LEGISLACAO
 n° O O I-LEGISLACAO
-23.37612012. O O I-LEGISLACAO
-
+23.37612012 O O I-LEGISLACAO
+. O O O
 
 Não O O O
 somente O O O
@@ -121409,23 +121594,24 @@ gerador O O O
 § O O B-LEGISLACAO
 4o O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 7o O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 caput O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 8o O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 e O O I-LEGISLACAO
 §§ O O I-LEGISLACAO
 1o O O I-LEGISLACAO
 e O O I-LEGISLACAO
 2º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 65 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -121452,7 +121638,6 @@ respectivas O O O
 alterações O O O
 contratuais O O O
 ; O O O
-
 8.3.2. O O O
 artigos O O B-LEGISLACAO
 62 O O I-LEGISLACAO
@@ -121463,7 +121648,6 @@ Lei O O I-LEGISLACAO
 nº O O I-LEGISLACAO
 4.320/64 O O I-LEGISLACAO
 ; O O O
-
 artigo O O B-LEGISLACAO
 65 O O I-LEGISLACAO
 , O O I-LEGISLACAO
@@ -121471,9 +121655,9 @@ inciso O O I-LEGISLACAO
 II O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alínea O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 c O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 in O O I-LEGISLACAO
 fine O O I-LEGISLACAO
@@ -121483,7 +121667,6 @@ Lei O O I-LEGISLACAO
 nº O O I-LEGISLACAO
 8.666/93 O O I-LEGISLACAO
 ; O O O
-
 e O O O
 artigo O O B-LEGISLACAO
 38 O O I-LEGISLACAO
@@ -121502,7 +121685,6 @@ concessão O O O
 de O O O
 garantias O O O
 ; O O O
-
 8.4.determinar O O O
 à O O O
 Secex/RJ O O B-ORGANIZACAO
@@ -121524,7 +121706,6 @@ subitem O O O
 8.2 O O O
 anterior O O O
 ; O O O
-
 8.5. O O O
 restituir O O O
 os O O O
@@ -121570,7 +121751,6 @@ das O O O
 etapas O O O
 restantes O O O
 ; O O O
-
 e O O O
 8.6. O O O
 remeter O O O
@@ -121601,7 +121781,6 @@ Superior O O B-ORGANIZACAO
 Tribunal O O I-ORGANIZACAO
 Militar O O I-ORGANIZACAO
 ; O O O
-
 e O O O
 b O O O
 ) O O O
@@ -121677,8 +121856,8 @@ momento O O O
 além O O O
 dos O O O
 aqui O O O
-tratados. O O O
-
+tratados O O O
+. O O O
 
 Nesse O O O
 mesmo O O O
@@ -123337,7 +123516,7 @@ Art O O O
 Código O O O
 de O O O
 Verificação O O O
-: O O O
+:2018ACO899XSQTZBL81ZOE6V34P O O O
 GABINETE O O O
 DA O O O
 DESEMBARGADORA O O O
@@ -123354,7 +123533,8 @@ Emenda O O B-LEGISLACAO
 Constitucional O O I-LEGISLACAO
 41/2003 O O I-LEGISLACAO
 '' O O O
-Art. O O O
+Art O O O
+. O O O
 6º O O O
 Ressalvado O O O
 o O O O
@@ -123367,7 +123547,8 @@ pelas O O O
 normas O O O
 estabelecidas O O O
 pelo O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 40 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Constituição O O I-LEGISLACAO
@@ -123377,7 +123558,8 @@ pelas O O O
 regras O O O
 estabelecidas O O O
 pelo O O O
-art. O O O
+art O O O
+. O O O
 2º O O O
 desta O O O
 Emenda O O O
@@ -123461,7 +123643,8 @@ no O O O
 § O O B-LEGISLACAO
 5º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 40 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Constituição O O I-LEGISLACAO
@@ -123498,7 +123681,6 @@ idade O O O
 se O O O
 mulher O O O
 ; O O O
-
 II O O O
 - O O O
 trinta O O O
@@ -123520,7 +123702,6 @@ contribuição O O O
 se O O O
 mulher O O O
 ; O O O
-
 III O O O
 - O O O
 vinte O O O
@@ -123532,7 +123713,6 @@ no O O O
 serviço O O O
 público O O O
 ; O O O
-
 e O O O
 IV O O O
 - O O O
@@ -123554,8 +123734,8 @@ se O O O
 der O O O
 a O O O
 aposentadoria O O O
-''. O O O
-
+'' O O O
+. O O O
 
 p. O O O
 64 O O O
@@ -127967,7 +128147,8 @@ Em O O O
 sua O O O
 minuta O O O
 ( O O O
-fis. O O O
+fis O O O
+. O O O
 490-7 O O O
 ) O O O
 , O O O
@@ -128020,7 +128201,6 @@ eleitôrais O O O
 e O O O
 partidárias O O O
 ; O O O
-
 r O O O
 AgR-PC O O B-JURISPRUDENCIA
 n° O O I-JURISPRUDENCIA
@@ -128065,7 +128245,6 @@ Construtura O O B-ORGANIZACAO
 Cowan O O I-ORGANIZACAO
 S.A. O O I-ORGANIZACAO
 ; O O O
-
 que O O O
 , O O O
 somente O O O
@@ -128105,7 +128284,6 @@ devido O O O
 processo O O O
 legal O O O
 ; O O O
-
 ao O O O
 contrário O O O
 do O O O
@@ -128140,7 +128318,8 @@ que O O O
 , O O O
 em O O O
 seu O O O
-art. O O O
+art O O O
+. O O O
 65 O O O
 , O O O
 § O O O
@@ -128188,7 +128367,8 @@ o O O O
 dispostono O O O
 li O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 37 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -128297,7 +128477,6 @@ da O O O
 Justiça O O O
 Eleitoral O O O
 ; O O O
-
 e O O O
 este O O O
 Tribunal O O O
@@ -128329,8 +128508,8 @@ da O O O
 razoabilidade O O O
 e O O O
 da O O O
-proporcionalidade. O O O
-
+proporcionalidade O O O
+. O O O
 
 Precedentes O O O
 . O O O
@@ -139705,6 +139884,217 @@ A O O O
 ORDEM O O O
 '' O O O
 
+O O O O
+documento O O O
+pode O O O
+ser O O O
+acessado O O O
+no O O O
+endereço O O O
+eletrônico O O O
+http O O O
+: O O O
+//www.stf.jus.br/portal/autenticacao/ O O O
+sob O O O
+o O O O
+número O O O
+14536376 O O O
+. O O O
+Inteiro O O O
+Teor O O O
+do O O O
+Acórdão O O O
+- O O O
+Página O O O
+2 O O O
+de O O O
+17 O O O
+Relatório O O O
+16/03/2018 O O B-TEMPO
+PLENÁRIO O O B-ORGANIZACAO
+A O O O
+G O O O
+.REG O O O
+. O O O
+NA O O O
+AÇÃO O O B-JURISPRUDENCIA
+CÍVEL O O I-JURISPRUDENCIA
+ORIGINÁRIA O O I-JURISPRUDENCIA
+2.821 O O I-JURISPRUDENCIA
+MATO O O B-LOCAL
+GROSSO O O I-LOCAL
+RELATOR O O O
+: O O O
+MIN O O O
+. O O O
+RICARDO O O B-PESSOA
+LEWANDOWSKI O O I-PESSOA
+AGTE O O O
+. O O O
+( O O O
+S O O O
+) O O O
+: O O O
+UNIÃO O O B-ORGANIZACAO
+ADV O O O
+. O O O
+( O O O
+A O O O
+/ O O O
+S O O O
+) O O O
+: O O O
+ADVOGADO O O O
+-GERAL O O O
+DA O O O
+UNIÃO O O O
+AGDO O O O
+. O O O
+( O O O
+A O O O
+/ O O O
+S O O O
+) O O O
+: O O O
+ESTADO O O B-LOCAL
+DE O O I-LOCAL
+MATO O O I-LOCAL
+GROSSO O O I-LOCAL
+PROC O O O
+. O O O
+( O O O
+A O O O
+/ O O O
+S O O O
+) O O O
+( O O O
+ES O O O
+) O O O
+: O O O
+PROCURADOR O O O
+-GERAL O O O
+DO O O O
+ESTADO O O B-LOCAL
+DE O O I-LOCAL
+MATO O O I-LOCAL
+GROSSO O O I-LOCAL
+R O O O
+E O O O
+L O O O
+A O O O
+T O O O
+Ó O O O
+R O O O
+I O O O
+O O O O
+O O O O
+Senhor O O O
+Ministro O O O
+Ricardo O O B-PESSOA
+Lewandowski O O I-PESSOA
+( O O O
+Relator O O O
+) O O O
+: O O O
+Trata-se O O O
+de O O O
+agravo O O O
+regimental O O O
+interposto O O O
+pela O O O
+União O O B-ORGANIZACAO
+contra O O O
+decisão O O O
+monocrática O O O
+que O O O
+julgou O O O
+procedente O O O
+Ação O O O
+Cível O O O
+Originária O O O
+ajuizada O O O
+pelo O O O
+Estado O O B-ORGANIZACAO
+do O O I-ORGANIZACAO
+Mato O O I-ORGANIZACAO
+Grosso O O I-ORGANIZACAO
+, O O O
+determinando-se O O O
+à O O O
+União O O B-ORGANIZACAO
+`` O O O
+que O O O
+renove O O O
+o O O O
+Certificado O O O
+de O O O
+Regularidade O O O
+Previdenciária O O O
+do O O O
+Estado O O B-ORGANIZACAO
+de O O I-ORGANIZACAO
+Mato O O I-ORGANIZACAO
+Grosso O O I-ORGANIZACAO
+, O O O
+retirando-o O O O
+do O O O
+conceito O O O
+de O O O
+irregular O O O
+do O O O
+Cadastro O O O
+de O O O
+Regime O O O
+Próprio O O O
+de O O O
+Previdência O O O
+Social-CADPREV O O O
+ou O O O
+retirando-o O O O
+de O O O
+qualquer O O O
+outro O O O
+cadastro O O O
+de O O O
+inadimplentes O O O
+pelo O O O
+mesmo O O O
+motivo O O O
+( O O O
+CADIN O O O
+, O O O
+CA O O O
+UC O O O
+, O O O
+SIAFI O O O
+, O O O
+SICONV O O O
+) O O O
+, O O O
+declarando-se O O O
+ainda O O O
+, O O O
+incidenter O O O
+tantum O O O
+, O O O
+a O O O
+inconstitucionalidade O O O
+do O O O
+Decreto O O B-LEGISLACAO
+3.788/2001 O O I-LEGISLACAO
+e O O O
+da O O O
+Portaria O O B-LEGISLACAO
+MPS O O I-LEGISLACAO
+n° O O I-LEGISLACAO
+204/2008 O O I-LEGISLACAO
+e O O O
+de O O O
+suas O O O
+posteriores O O O
+alterações O O O
+'' O O O
+. O O O
 
 Eis O O O
 a O O O
@@ -148088,8 +148478,8 @@ efeitos O O O
 de O O O
 revelia O O O
 ; O O O
-
-b. O O O
+b O O O
+. O O O
 SEJAM O O O
 JULGADOS O O O
 PROCEDENTES O O O
@@ -148158,7 +148548,6 @@ aqui O O O
 tratada O O O
 ) O O O
 ; O O O
-
 c. O O O
 seja O O O
 o O O O
@@ -148200,7 +148589,36 @@ estejam O O O
 aqui O O O
 incluídas O O O
 ; O O O
-
+d. O O O
+seja O O O
+o O O O
+Réu O O O
+condenado O O O
+ao O O O
+pagamento O O O
+de O O O
+custas O O O
+processuais O O O
+e O O O
+honorários O O O
+advocatícios O O O
+, O O O
+a O O O
+serem O O O
+fixados O O O
+nos O O O
+moldes O O O
+do O O O
+artigo O O B-LEGISLACAO
+20 O O I-LEGISLACAO
+, O O I-LEGISLACAO
+§4º O O I-LEGISLACAO
+do O O I-LEGISLACAO
+Código O O I-LEGISLACAO
+do O O I-LEGISLACAO
+Processo O O I-LEGISLACAO
+civil O O I-LEGISLACAO
+; O O O
 Para O O O
 formular O O O
 tais O O O
@@ -148221,15 +148639,15 @@ Varas O O O
 de O O O
 Fazenda O O O
 Pública O O O
-e O O B-LEGISLACAO
-disse O O I-LEGISLACAO
-que O O I-LEGISLACAO
-`` O O I-LEGISLACAO
-A O O I-LEGISLACAO
-presente O O I-LEGISLACAO
-ação O O I-LEGISLACAO
-tem O O I-LEGISLACAO
-por O O I-LEGISLACAO
+e O O O
+disse O O O
+que O O O
+`` O O O
+A O O O
+presente O O O
+ação O O O
+tem O O O
+por O O O
 finalidade O O O
 , O O O
 assegurar O O O
@@ -148263,39 +148681,9 @@ e O O O
 os O O O
 proventos O O O
 efetivamente O O O
-devidos. O O O
+devidos O O O
+. O O O
 '' O O O
-d. O O O
-seja O O O
-o O O O
-Réu O O O
-condenado O O O
-ao O O O
-pagamento O O O
-de O O O
-custas O O O
-processuais O O O
-e O O O
-honorários O O O
-advocatícios O O O
-, O O O
-a O O O
-serem O O O
-fixados O O O
-nos O O O
-moldes O O O
-do O O O
-artigo O O O
-20 O O O
-, O O O
-§4º O O O
-do O O O
-Código O O O
-do O O O
-Processo O O O
-civil O O O
-; O O O
-
 
 A O O O
 prisão O O O
@@ -158789,7 +159177,6 @@ narrados O O O
 na O O O
 denúncia O O O
 ; O O O
-
 que O O O
 procurou O O O
 o O O O
@@ -158814,7 +159201,6 @@ o O O O
 auxílio O O O
 transporte O O O
 ; O O O
-
 que O O O
 inicialmente O O O
 o O O O
@@ -158845,7 +159231,6 @@ distante O O O
 da O O O
 OM O O O
 ; O O O
-
 que O O O
 apresentou O O O
 uma O O O
@@ -158875,7 +159260,6 @@ janeiro O O I-TEMPO
 de O O I-TEMPO
 2015 O O I-TEMPO
 ; O O O
-
 que O O O
 não O O O
 foi O O O
@@ -158893,7 +159277,6 @@ pagamento O O O
 do O O O
 benefício O O O
 ; O O O
-
 que O O O
 em O O O
 janeiro O O B-TEMPO
@@ -158926,7 +159309,6 @@ qual O O O
 foi O O O
 ouvido O O O
 ; O O O
-
 que O O O
 quem O O O
 mora O O O
@@ -158946,7 +159328,6 @@ final O O O
 de O O O
 mês O O O
 ; O O O
-
 que O O O
 conseguia O O O
 os O O O
@@ -158957,7 +159338,6 @@ motorista O O O
 do O O O
 ônibus O O O
 ; O O O
-
 que O O O
 gastava O O O
 por O O O
@@ -158966,7 +159346,6 @@ R O O O
 $ O O O
 54,30 O O O
 ; O O O
-
 que O O O
 morava O O O
 em O O O
@@ -158981,7 +159360,6 @@ Rio O O I-LOCAL
 de O O I-LOCAL
 Janeiro O O I-LOCAL
 ; O O O
-
 que O O O
 na O O O
 época O O O
@@ -158995,7 +159373,6 @@ três O O O
 de O O O
 volta O O O
 ; O O O
-
 que O O O
 não O O O
 falsificou O O O
@@ -159012,12 +159389,12 @@ de O O I-PESSOA
 Sousa O O I-PESSOA
 , O O O
 Matricula O O O
-9319. O O O
-
+9319 O O O
+. O O O
 Em O O O
 27/03/2018 O O B-TEMPO
-16:57:14. O O O
-
+16:57:14 O O O
+. O O O
 Para O O O
 confirmar O O O
 a O O O
@@ -159040,7 +159417,6 @@ apresentar O O O
 na O O O
 Unidade O O O
 ; O O O
-
 que O O O
 firmou O O O
 contrato O O O
@@ -159054,7 +159430,6 @@ GARCEZ O O I-PESSOA
 DA O O I-PESSOA
 ROCHA O O I-PESSOA
 ; O O O
-
 que O O O
 o O O O
 referido O O O
@@ -159083,7 +159458,6 @@ janeiro O O I-TEMPO
 de O O I-TEMPO
 2015 O O I-TEMPO
 ; O O O
-
 que O O O
 posteriormente O O O
 , O O O
@@ -159124,7 +159498,6 @@ o O O O
 Suboficial O O O
 ALEX O O B-PESSOA
 ; O O O
-
 que O O O
 , O O O
 da O O O
@@ -159145,7 +159518,6 @@ DO O O I-PESSOA
 CARMO O O I-PESSOA
 LIMA O O I-PESSOA
 ; O O O
-
 que O O O
 não O O O
 tem O O O
@@ -159187,8 +159559,8 @@ destacava O O O
 e O O O
 entregava O O O
 ao O O O
-Acusado. O O O
-
+Acusado O O O
+. O O O
 
 Desse O O O
 modo O O O
@@ -165882,12 +166254,12 @@ a O O O
 realização O O O
 do O O O
 Projeto O O O
-" O O O
+“ O O O
 Aero O O B-ORGANIZACAO
 Circus O O I-ORGANIZACAO
 Espetáculos O O I-ORGANIZACAO
 Itinerantes O O I-ORGANIZACAO
-" O O O
+” O O O
 , O O O
 ACORDAM O O O
 os O O O
@@ -165909,7 +166281,8 @@ Câmara O O I-ORGANIZACAO
 com O O O
 fundamento O O O
 nos O O O
-arts. O O B-LEGISLACAO
+arts O O B-LEGISLACAO
+. O O I-LEGISLACAO
 1º O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -165921,17 +166294,17 @@ inciso O O I-LEGISLACAO
 III O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alíneas O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 a O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 b O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 e O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 c O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -165947,7 +166320,8 @@ de O O I-TEMPO
 , O O O
 c/c O O O
 os O O O
-arts. O O O
+arts O O O
+. O O O
 19 O O O
 e O O O
 23 O O O
@@ -165961,7 +166335,8 @@ Lei O O O
 , O O O
 e O O O
 com O O O
-arts. O O B-LEGISLACAO
+arts O O B-LEGISLACAO
+. O O I-LEGISLACAO
 1º O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -166055,16 +166430,17 @@ perante O O O
 o O O O
 Tribunal O O O
 ( O O O
-art. O O O
+art O O O
+. O O O
 214 O O O
 , O O O
 inciso O O O
 III O O O
 , O O O
 alínea O O O
-" O O O
+“ O O O
 a O O O
-" O O O
+” O O O
 , O O O
 do O O O
 Regimento O O O
@@ -166114,7 +166490,6 @@ legislação O O O
 em O O O
 vigor O O O
 ; O O O
-
 9.2. O O O
 aplicar O O O
 ao O O O
@@ -166130,7 +166505,8 @@ a O O O
 multa O O O
 prevista O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 57 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -166146,7 +166522,8 @@ de O O I-TEMPO
 , O O O
 c/c O O O
 o O O O
-art. O O O
+art O O O
+. O O O
 267 O O O
 do O O O
 Regimento O O O
@@ -166187,16 +166564,17 @@ perante O O O
 o O O O
 Tribunal O O O
 ( O O O
-art. O O O
+art O O O
+. O O O
 214 O O O
 , O O O
 inciso O O O
 III O O O
 , O O O
 alínea O O O
-" O O O
+“ O O O
 a O O O
-" O O O
+” O O O
 , O O O
 do O O O
 Regimento O O O
@@ -166239,7 +166617,6 @@ legislação O O O
 em O O O
 vigor O O O
 ; O O O
-
 9.3. O O O
 autorizar O O O
 , O O O
@@ -166276,7 +166653,8 @@ consecutivas O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 26 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -166292,7 +166670,8 @@ de O O I-TEMPO
 , O O O
 c/c O O O
 o O O O
-art. O O O
+art O O O
+. O O O
 217 O O O
 do O O O
 Regimento O O O
@@ -166369,7 +166748,6 @@ legislação O O O
 em O O O
 vigor O O O
 ; O O O
-
 9.4. O O O
 alertar O O O
 o O O O
@@ -166398,7 +166776,8 @@ do O O O
 § O O O
 2º O O O
 do O O O
-art. O O O
+art O O O
+. O O O
 217 O O O
 do O O O
 Regimento O O O
@@ -166406,7 +166785,6 @@ Interno O O O
 deste O O O
 Tribunal O O O
 ; O O O
-
 9.5. O O O
 determinar O O O
 à O O O
@@ -166437,20 +166815,22 @@ e O O O
 com O O O
 fundamento O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 15 O O I-LEGISLACAO
 e O O I-LEGISLACAO
 no O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 18 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 II O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alínea O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 a O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Resolução O O I-LEGISLACAO
@@ -166464,7 +166844,6 @@ junho O O I-TEMPO
 de O O I-TEMPO
 2004 O O I-TEMPO
 ; O O O
-
 9.6. O O O
 autorizar O O O
 , O O O
@@ -166474,7 +166853,8 @@ logo O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -166500,7 +166880,6 @@ atendidas O O O
 as O O O
 notificações O O O
 ; O O O
-
 e O O O
 9.7. O O O
 encaminhar O O O
@@ -166535,7 +166914,8 @@ do O O O
 § O O B-LEGISLACAO
 7º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 209 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
@@ -166566,11 +166946,12 @@ de O O O
 Reconsideração O O O
 previsto O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 285 O O I-LEGISLACAO
 do O O I-LEGISLACAO
-RI/TCU. O O I-LEGISLACAO
-
+RI/TCU O O I-LEGISLACAO
+. O O O
 
 Art O O O
 . O O O
@@ -174577,7 +174958,8 @@ competência O O O
 executiva O O O
 . O O O
 
-Art. O O O
+Art O O O
+. O O O
 2º O O O
 Os O O O
 locais O O O
@@ -174599,152 +174981,126 @@ I O O O
 - O O O
 Aeroporto O O O
 ; O O O
-
 II O O O
 - O O O
 Águas O O B-LOCAL
 Claras O O I-LOCAL
 ; O O O
-
 III O O O
 - O O O
 Brazlândia O O B-LOCAL
 ; O O O
-
 IV O O O
 - O O O
 Candangolândia O O B-LOCAL
 ; O O O
-
 V O O O
 - O O O
 Ceilândia O O B-LOCAL
 ; O O O
-
 VI O O O
 - O O O
 Cruzeiro O O B-LOCAL
 ; O O O
-
 VII O O O
 - O O O
 Fercal O O B-LOCAL
 ; O O O
-
 VIII O O O
 - O O O
 Gama O O B-LOCAL
 ; O O O
-
 IX O O O
 - O O O
 Guará O O B-LOCAL
 ; O O O
-
 X O O O
 - O O O
 Itapoã O O B-LOCAL
 ; O O O
-
 XI O O O
 - O O O
 Jardim O O B-LOCAL
 Botânico O O I-LOCAL
 ; O O O
-
 XII O O O
 - O O O
 Lago O O B-LOCAL
 Norte O O I-LOCAL
 ; O O O
-
 XIII O O O
 - O O O
 Lago O O B-LOCAL
 Sul O O I-LOCAL
 ; O O O
-
 XIV O O O
 - O O O
 Núcleo O O B-LOCAL
 Bandeirante O O I-LOCAL
 ; O O O
-
 XV O O O
 - O O O
 Paranoá O O B-LOCAL
 ; O O O
-
 XVI O O O
 - O O O
 Park O O B-LOCAL
 Way O O I-LOCAL
 ; O O O
-
 XVII O O O
 - O O O
 Planaltina O O B-LOCAL
 ; O O O
-
 XVIII O O O
 - O O O
 Plano O O B-LOCAL
 Piloto O O I-LOCAL
 Centro O O I-LOCAL
 ; O O O
-
 XIX O O O
 - O O O
 Plano O O B-LOCAL
 Piloto O O I-LOCAL
 Norte O O I-LOCAL
 ; O O O
-
 XX O O O
 - O O O
 Plano O O B-LOCAL
 Piloto O O I-LOCAL
 Sul O O I-LOCAL
 ; O O O
-
 XXI O O O
 - O O O
 Recanto O O B-LOCAL
 das O O I-LOCAL
 Emas O O I-LOCAL
 ; O O O
-
 XXII O O O
 - O O O
 Riacho O O B-LOCAL
 Fundo O O I-LOCAL
 I O O I-LOCAL
 ; O O O
-
 XXIII O O O
 - O O O
 Riacho O O B-LOCAL
 Fundo O O I-LOCAL
 II O O I-LOCAL
 ; O O O
-
 XXIV O O O
 - O O O
 Samambaia O O B-LOCAL
 ; O O O
-
 XXV O O O
 - O O O
 Santa O O B-LOCAL
 Maria O O I-LOCAL
 ; O O O
-
 XXVI O O O
 - O O O
 São O O B-LOCAL
 Sebastião O O I-LOCAL
 ; O O O
-
 XXVII O O O
 - O O O
 SCIA O O B-LOCAL
@@ -174756,7 +175112,6 @@ e O O O
 Estrutural O O B-LOCAL
 ) O O O
 ; O O O
-
 XXVIII O O O
 - O O O
 SIA O O B-LOCAL
@@ -174764,52 +175119,43 @@ e O O O
 Setores O O O
 Complementares O O O
 ; O O O
-
 XXIX O O O
 - O O O
 Sobradinho O O B-LOCAL
 ; O O O
-
 XXX O O O
 - O O O
 Sobradinho O O B-LOCAL
 II O O I-LOCAL
 ; O O O
-
 XXXI O O O
 - O O O
 Sudoeste/Octogonal O O B-LOCAL
 ; O O O
-
 XXXII O O O
 - O O O
 Taguatinga O O B-LOCAL
 ; O O O
-
 XXXIII O O O
 - O O O
 Varjão O O B-LOCAL
 ; O O O
-
 XXXIV O O O
 - O O O
 Vicente O O B-LOCAL
 Pires O O I-LOCAL
 ; O O O
-
 XXXV O O O
 - O O O
 Universidade O O B-LOCAL
 de O O I-LOCAL
 Brasília O O I-LOCAL
 ; O O O
-
 XXXVI O O O
 - O O O
 Vila O O B-LOCAL
 Planalto O O I-LOCAL
 ; O O O
-
 XXXVII O O O
 - O O O
 Águas O O B-LOCAL
@@ -174817,36 +175163,30 @@ Lindas O O I-LOCAL
 de O O I-LOCAL
 Goiás O O I-LOCAL
 ; O O O
-
 XXXVIII O O O
 - O O O
 Cidade O O B-LOCAL
 Ocidental O O I-LOCAL
 ; O O O
-
 XXXIX O O O
 - O O O
 Formosa O O B-LOCAL
 ; O O O
-
 XL O O O
 - O O O
 Luziânia O O B-LOCAL
 ; O O O
-
 XLI O O O
 - O O O
 Novo O O B-LOCAL
 Gama O O I-LOCAL
 ; O O O
-
 XLII O O O
 - O O O
 Planaltina O O B-LOCAL
 de O O I-LOCAL
 Goiás O O I-LOCAL
 ; O O O
-
 XLIII O O O
 - O O O
 Santo O O B-LOCAL
@@ -174854,12 +175194,10 @@ Antônio O O I-LOCAL
 do O O I-LOCAL
 Descoberto O O I-LOCAL
 ; O O O
-
 XLIV O O O
 - O O O
 Valparaíso O O B-LOCAL
 ; O O O
-
 XLV O O O
 - O O O
 Demais O O O
@@ -174867,18 +175205,16 @@ Municípios O O O
 de O O O
 Goiás O O B-LOCAL
 ; O O O
-
 XLVI O O O
 - O O O
 Minas O O B-LOCAL
 Gerais O O I-LOCAL
 ; O O O
-
 XLVII O O O
 - O O O
 Demais O O O
-Localidades. O O O
-
+Localidades O O O
+. O O O
 
 Agente O O O
 particular O O O
@@ -179493,7 +179829,8 @@ III O O O
 DA O O O
 PARTE O O O
 CONCEDENTE O O O
-Art. O O O
+Art O O O
+. O O O
 9o O O O
 As O O O
 pessoas O O O
@@ -179575,7 +179912,6 @@ por O O O
 seu O O O
 cumprimento O O O
 ; O O O
-
 II O O O
 – O O O
 ofertar O O O
@@ -179596,7 +179932,6 @@ profissional O O O
 e O O O
 cultural O O O
 ; O O O
-
 III O O O
 – O O O
 indicar O O O
@@ -179634,7 +179969,6 @@ dez O O O
 estagiários O O O
 simultaneamente O O O
 ; O O O
-
 IV O O O
 – O O O
 contratar O O O
@@ -179664,7 +179998,6 @@ termo O O O
 de O O O
 compromisso O O O
 ; O O O
-
 V O O O
 – O O O
 por O O O
@@ -179695,7 +180028,6 @@ avaliação O O O
 de O O O
 desempenho O O O
 ; O O O
-
 VI O O O
 – O O O
 manter O O O
@@ -179711,7 +180043,6 @@ relação O O O
 de O O O
 estágio O O O
 ; O O O
-
 VII O O O
 – O O O
 enviar O O O
@@ -179738,8 +180069,8 @@ com O O O
 vista O O O
 obrigatória O O O
 ao O O O
-estagiário. O O O
-
+estagiário O O O
+. O O O
 
 Concessão O O O
 de O O O
@@ -189005,12 +189336,12 @@ Moreira O O I-PESSOA
 da O O I-PESSOA
 Silva O O I-PESSOA
 ; O O O
-
 9.2. O O O
 com O O O
 fundamento O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 58 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -189104,16 +189435,17 @@ Nacional O O I-ORGANIZACAO
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 23 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 III O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alínea O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 a O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 da O O I-LEGISLACAO
 referida O O I-LEGISLACAO
@@ -189121,16 +189453,17 @@ Lei O O I-LEGISLACAO
 , O O O
 c/c O O O
 o O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 214 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 III O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alínea O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 a O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
@@ -189138,12 +189471,12 @@ Interno O O I-LEGISLACAO
 do O O I-LEGISLACAO
 TCU O O I-LEGISLACAO
 ; O O O
-
 9.3. O O O
 com O O O
 fundamento O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 26 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -189270,7 +189603,8 @@ devedor O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 217 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
@@ -189278,7 +189612,6 @@ Interno O O I-LEGISLACAO
 do O O I-LEGISLACAO
 TCU O O I-LEGISLACAO
 ; O O O
-
 9.4. O O O
 autorizar O O O
 o O O O
@@ -189298,7 +189631,8 @@ observado O O O
 o O O O
 disposto O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -189308,12 +189642,12 @@ da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.443/1992 O O I-LEGISLACAO
 ; O O O
-
 9.5. O O O
 com O O O
 fundamento O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -189336,7 +189670,6 @@ atendida O O O
 a O O O
 notificação O O O
 ; O O O
-
 9.6. O O O
 considerar O O O
 cumpridos O O O
@@ -189349,7 +189682,6 @@ do O O O
 Acórdão O O B-JURISPRUDENCIA
 2.634/2016-TCU-Plenário O O I-JURISPRUDENCIA
 ; O O O
-
 9.7. O O O
 determinar O O O
 ao O O O
@@ -189396,7 +189728,6 @@ pregão O O O
 eletrônico O O O
 25/2016 O O O
 ; O O O
-
 9.8. O O O
 dar O O O
 ciência O O O
@@ -189462,7 +189793,6 @@ do O O O
 Acórdão O O B-JURISPRUDENCIA
 2.634/2016-TCU-Plenário O O I-JURISPRUDENCIA
 ; O O O
-
 9.8.2. O O O
 ao O O O
 Instituto O O B-ORGANIZACAO
@@ -189525,7 +189855,6 @@ do O O O
 Acórdão O O B-JURISPRUDENCIA
 2.634/2016-TCU-Plenário O O I-JURISPRUDENCIA
 ; O O O
-
 9.9. O O O
 dar O O O
 ciência O O O
@@ -189546,8 +189875,8 @@ ao O O O
 responsável O O O
 e O O O
 ao O O O
-denunciante. O O O
-
+denunciante O O O
+. O O O
 
 O O O O
 artigo O O B-LEGISLACAO
@@ -197384,14 +197713,12 @@ Lei O O I-LEGISLACAO
 nº O O I-LEGISLACAO
 4.320/64 O O I-LEGISLACAO
 ; O O O
-
 38 O O B-LEGISLACAO
 do O O I-LEGISLACAO
 Decreto O O I-LEGISLACAO
 nº O O I-LEGISLACAO
 93.872/86 O O I-LEGISLACAO
 ; O O O
-
 e O O O
 65 O O B-LEGISLACAO
 , O O I-LEGISLACAO
@@ -197431,7 +197758,6 @@ artigos O O B-LEGISLACAO
 § O O I-LEGISLACAO
 4º O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 8º O O I-LEGISLACAO
 , O O I-LEGISLACAO
 e O O I-LEGISLACAO
@@ -197449,7 +197775,6 @@ Licitações O O I-LEGISLACAO
 e O O I-LEGISLACAO
 Contratos O O I-LEGISLACAO
 ; O O O
-
 8.1.2 O O O
 - O O O
 prossiga O O O
@@ -197470,7 +197795,6 @@ Decisão O O B-JURISPRUDENCIA
 nº O O I-JURISPRUDENCIA
 633/99-TCU-Plenário O O I-JURISPRUDENCIA
 ; O O O
-
 8.1.3 O O O
 - O O O
 realize O O O
@@ -197518,7 +197842,6 @@ em O O O
 outro O O O
 processo O O O
 ; O O O
-
 8.2 O O O
 - O O O
 determinar O O O
@@ -197579,7 +197902,6 @@ a O O O
 estes O O O
 autos O O O
 ; O O O
-
 8.3 O O O
 - O O O
 encaminhar O O O
@@ -197615,8 +197937,8 @@ ao O O O
 atual O O O
 Presidente O O O
 do O O O
-STM. O O B-ORGANIZACAO
-
+STM O O B-ORGANIZACAO
+. O O O
 
 DÉBITO O O O
 SOLIDÁRIO O O O
@@ -200154,7 +200476,7 @@ de O O I-TEMPO
 Código O O O
 de O O O
 Verificação O O O
-: O O O
+:2018ACONT2JYXTK52JCSL251NVQ O O O
 GABINETE O O O
 DO O O O
 DESEMBARGADOR O O O
@@ -200163,7 +200485,8 @@ BARBOSA O O I-PESSOA
 DOS O O I-PESSOA
 SANTOS O O I-PESSOA
 2 O O O
-Fls. O O O
+Fls O O O
+. O O O
 _____ O O O
 Ação O O B-JURISPRUDENCIA
 Direta O O I-JURISPRUDENCIA
@@ -200274,7 +200597,6 @@ ULHÔA O O I-PESSOA
 Vogal O O O
 , O O O
 J.J. O O B-PESSOA
-
 COSTA O O I-PESSOA
 CARVALHO O O I-PESSOA
 - O O O
@@ -200340,7 +200662,8 @@ FORMAL O O O
 DA O O O
 LEI O O B-LEGISLACAO
 DISTRITAL O O I-LEGISLACAO
-N. O O I-LEGISLACAO
+N O O I-LEGISLACAO
+. O O I-LEGISLACAO
 5.815 O O I-LEGISLACAO
 , O O O
 DE O O O
@@ -200361,8 +200684,8 @@ EFICÁCIA O O O
 `` O O O
 ERGA O O O
 OMNES O O O
-''. O O O
-
+'' O O O
+. O O O
 
 Trata-se O O O
 na O O O
@@ -207359,7 +207682,8 @@ no O O O
 inciso O O B-LEGISLACAO
 II O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 58 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -207389,7 +207713,8 @@ perante O O O
 o O O O
 Tribunal O O O
 ( O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 214 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -207441,7 +207766,6 @@ legislação O O O
 em O O O
 vigor O O O
 ; O O O
-
 b O O O
 ) O O O
 autorizar O O O
@@ -207452,7 +207776,8 @@ requerido O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 26 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -207487,7 +207812,8 @@ do O O O
 saldo O O O
 devedor O O O
 ( O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 217 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 § O O I-LEGISLACAO
@@ -207507,7 +207833,6 @@ demais O O O
 medidas O O O
 legais O O O
 ; O O O
-
 c O O O
 ) O O O
 autorizar O O O
@@ -207529,7 +207854,8 @@ observado O O O
 o O O O
 disposto O O O
 no O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -207539,7 +207865,6 @@ da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.443/1992 O O I-LEGISLACAO
 ; O O O
-
 d O O O
 ) O O O
 autorizar O O O
@@ -207550,7 +207875,8 @@ logo O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -207589,7 +207915,6 @@ f O O O
 ’ O O O
 acima O O O
 ; O O O
-
 e O O O
 ) O O O
 considerar O O O
@@ -207607,7 +207932,6 @@ TCU O O B-ORGANIZACAO
 - O O O
 Plenário O O B-ORGANIZACAO
 ; O O O
-
 f O O O
 ) O O O
 dar O O O
@@ -207675,7 +207999,6 @@ TCU O O B-ORGANIZACAO
 - O O O
 Plenário O O B-ORGANIZACAO
 ; O O O
-
 g O O O
 ) O O O
 notificar O O O
@@ -207751,7 +208074,6 @@ Relatório O O O
 e O O O
 Voto O O O
 ; O O O
-
 h O O O
 ) O O O
 comunicar O O O
@@ -207766,12 +208088,11 @@ GAP/BR O O B-ORGANIZACAO
 e O O O
 ao O O O
 denunciante. O O O
-" O O O
-
+” O O O
 É O O O
 o O O O
-relatório. O O O
-
+relatório O O O
+. O O O
 
 Os O O O
 Juizados O O B-ORGANIZACAO
@@ -209204,7 +209525,6 @@ Eletrônico O O O
 nº O O O
 25/2016 O O O
 ; O O O
-
 e O O O
 9.2.2. O O O
 adote O O O
@@ -209288,7 +209608,6 @@ dos O O O
 correspondentes O O O
 serviços O O O
 ; O O O
-
 9.3. O O O
 determinar O O O
 ao O O O
@@ -209388,7 +209707,6 @@ a O O O
 serem O O O
 contratados O O O
 ; O O O
-
 9.3.2. O O O
 promover O O O
 a O O O
@@ -209445,9 +209763,8 @@ e O O O
 do O O O
 Plenário O O B-ORGANIZACAO
 ; O O O
-
-8. O O O
-
+8 O O O
+. O O O
 
 O O O O
 princípio O O O

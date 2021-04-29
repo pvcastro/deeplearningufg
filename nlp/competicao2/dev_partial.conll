@@ -2776,7 +2776,6 @@ peças O O O
 p. O O O
 2-5 O O O
 ; O O O
-
 12-14 O O O
 , O O O
 20-23 O O O
@@ -2786,7 +2785,6 @@ e O O O
 32-57 O O O
 ) O O O
 ; O O O
-
 b O O O
 ) O O O
 Se O O O
@@ -2803,7 +2801,6 @@ peça O O O
 5-10 O O O
 ) O O O
 ; O O O
-
 c O O O
 ) O O O
 Se O O O
@@ -2831,7 +2828,6 @@ p. O O O
 e O O O
 58-93 O O O
 ; O O O
-
 e O O O
 82 O O O
 , O O O
@@ -2839,7 +2835,6 @@ p. O O O
 2 O O O
 ) O O O
 ; O O O
-
 d O O O
 ) O O O
 Se O O O
@@ -2865,7 +2860,6 @@ e O O O
 102-111 O O O
 ) O O O
 ; O O O
-
 e O O O
 ) O O O
 Se O O O
@@ -2894,7 +2888,6 @@ e O O O
 94-101 O O O
 ) O O O
 ; O O O
-
 f O O O
 ) O O O
 Se O O O
@@ -2920,7 +2913,6 @@ p. O O O
 3 O O O
 ) O O O
 ; O O O
-
 g O O O
 ) O O O
 Se O O O
@@ -2945,8 +2937,8 @@ peça O O O
 , O O O
 p. O O O
 3 O O O
-). O O O
-
+) O O O
+. O O O
 
 Essa O O O
 decisão O O O
@@ -11680,7 +11672,6 @@ Contas O O I-ORGANIZACAO
 da O O I-ORGANIZACAO
 União O O I-ORGANIZACAO
 ; O O O
-
 c O O O
 ) O O O
 O O O O
@@ -11754,7 +11745,6 @@ gestão O O O
 do O O O
 período O O O
 ; O O O
-
 d O O O
 ) O O O
 No O O O
@@ -11787,7 +11777,6 @@ criminal O O O
 e O O O
 administrativa O O O
 ; O O O
-
 e O O O
 ) O O O
 A O O O
@@ -11826,7 +11815,6 @@ do O O O
 homem O O O
 médio O O O
 ; O O O
-
 f O O O
 ) O O O
 A O O O
@@ -11893,7 +11881,6 @@ imprudência O O O
 ou O O O
 imperícia O O O
 ; O O O
-
 g O O O
 ) O O O
 A O O O
@@ -11934,13 +11921,13 @@ débitos O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 59 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.383/1991 O O I-LEGISLACAO
 ; O O O
-
 h O O O
 ) O O O
 O O O O
@@ -11979,8 +11966,8 @@ não O O O
 teria O O O
 sido O O O
 realizada O O O
-". O O O
-
+” O O O
+. O O O
 
 Recurso O O O
 de O O O
@@ -13646,7 +13633,6 @@ p. O O O
 17 O O O
 ) O O O
 ; O O O
-
 b O O O
 ) O O O
 Outros O O O
@@ -13727,7 +13713,6 @@ p. O O O
 17-18 O O O
 ) O O O
 ; O O O
-
 c O O O
 ) O O O
 Os O O O
@@ -13786,8 +13771,8 @@ corrente O O O
 e O O O
 parte O O O
 do O O O
-sucessor. O O O
-
+sucessor O O O
+. O O O
 
 DESERÇÃO O O O
 . O O O
@@ -15378,7 +15363,6 @@ pela O O O
 União O O B-ORGANIZACAO
 ) O O O
 ; O O O
-
 por O O O
 se O O O
 tratar O O O
@@ -15416,7 +15400,6 @@ construção/fabricação O O O
 desses O O O
 bens O O O
 ; O O O
-
 pela O O O
 possibilidade O O O
 então O O O
@@ -15472,7 +15455,6 @@ de O O O
 recessão O O O
 econômica O O O
 ; O O O
-
 e O O O
 , O O O
 ainda O O O
@@ -15560,8 +15542,8 @@ de O O O
 aluguéis O O O
 por O O O
 prazo O O O
-indeterminado. O O O
-
+indeterminado O O O
+. O O O
 
 A O O O
 interpretação O O O
@@ -19097,11 +19079,11 @@ apresentações O O O
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 1/2 O O O
 ) O O O
 ; O O O
-
 documentos O O O
 relativos O O O
 à O O O
@@ -19123,11 +19105,11 @@ Cultura O O I-ORGANIZACAO
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 3/15 O O O
 ) O O O
 ; O O O
-
 recibos O O O
 de O O O
 pagamentos O O O
@@ -19142,7 +19124,6 @@ e O O O
 20/42 O O O
 ) O O O
 ; O O O
-
 notas O O O
 fiscais O O O
 de O O O
@@ -19159,11 +19140,11 @@ aérea O O O
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 42/6 O O O
 ) O O O
 ; O O O
-
 recibos O O O
 de O O O
 despesas O O O
@@ -19173,11 +19154,11 @@ alimentação O O O
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 47/51 O O O
 ) O O O
 ; O O O
-
 recibos O O O
 de O O O
 despesas O O O
@@ -19187,11 +19168,11 @@ hospedagem O O O
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 52 O O O
 ) O O O
 ; O O O
-
 recibos O O O
 de O O O
 despesa O O O
@@ -19226,11 +19207,11 @@ gráfico O O O
 peça O O O
 13 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 55/7 O O O
 ) O O O
 ; O O O
-
 b O O O
 ) O O O
 a O O O
@@ -19264,7 +19245,6 @@ e O O O
 relatório O O O
 final O O O
 ; O O O
-
 c O O O
 ) O O O
 verificam-se O O O
@@ -19312,10 +19292,11 @@ sete O O O
 peça O O O
 1 O O O
 , O O O
-pp. O O O
+pp O O O
+. O O O
 4/22 O O O
-). O O O
-
+) O O O
+. O O O
 
 Precedentes O O O
 . O O O
@@ -33726,7 +33707,8 @@ Federal O O I-LEGISLACAO
 ) O O O
 . O O O
 
-Art. O O O
+Art O O O
+. O O O
 8º O O O
 Excetuadas O O O
 as O O O
@@ -33842,7 +33824,8 @@ LOA O O B-LEGISLACAO
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 43 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 § O O I-LEGISLACAO
@@ -33863,7 +33846,6 @@ março O O I-LEGISLACAO
 de O O I-LEGISLACAO
 1964 O O I-LEGISLACAO
 ; O O O
-
 b O O O
 ) O O O
 de O O O
@@ -33874,7 +33856,8 @@ arrecadação O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 43 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 § O O I-LEGISLACAO
@@ -33891,7 +33874,6 @@ nº O O I-LEGISLACAO
 de O O I-LEGISLACAO
 1964 O O I-LEGISLACAO
 ; O O O
-
 II O O O
 - O O O
 para O O O
@@ -33955,7 +33937,6 @@ a O O O
 destinação O O O
 programática O O O
 ; O O O
-
 III O O O
 - O O O
 com O O O
@@ -34029,7 +34010,6 @@ unidade O O O
 de O O O
 destino O O O
 ; O O O
-
 IV O O O
 - O O O
 para O O O
@@ -34054,7 +34034,8 @@ anterior O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 43 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 § O O I-LEGISLACAO
@@ -34083,12 +34064,10 @@ vinculações O O O
 se O O O
 houver O O O
 ; O O O
-
 b O O O
 ) O O O
 doações O O O
 ; O O O
-
 § O O O
 1º O O O
 Fica O O O
@@ -34142,7 +34121,6 @@ e O O O
 encargos O O O
 sociais O O O
 ; O O O
-
 b O O O
 ) O O O
 cobrir O O O
@@ -34154,7 +34132,6 @@ benefícios O O O
 a O O O
 servidores O O O
 ; O O O
-
 c O O O
 ) O O O
 atender O O O
@@ -34169,14 +34146,13 @@ do O O O
 Anexo O O O
 XXIX O O O
 ; O O O
-
 II O O O
 - O O O
 da O O O
 reserva O O O
 de O O O
-contingência. O O O
-
+contingência O O O
+. O O O
 
 3 O O O
 . O O O
@@ -43975,7 +43951,6 @@ CPF O O O
 730.850.069-15 O O O
 ) O O O
 ; O O O
-
 18.2. O O O
 com O O O
 fundamento O O O
@@ -44036,7 +44011,6 @@ CPF O O O
 730.850.069-15 O O O
 ) O O O
 ; O O O
-
 18.3. O O O
 condenar O O O
 o O O O
@@ -44093,7 +44067,6 @@ legislação O O O
 em O O O
 vigor O O O
 ; O O O
-
 18.4. O O O
 aplicar O O O
 ao O O O
@@ -44115,7 +44088,6 @@ da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.443/1992 O O I-LEGISLACAO
 ; O O O
-
 18.5. O O O
 autorizar O O O
 , O O O
@@ -44125,7 +44097,8 @@ logo O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -44148,7 +44121,6 @@ as O O O
 notificações O O O
 expedidas O O O
 ; O O O
-
 18.6. O O O
 encaminhar O O O
 , O O O
@@ -44158,7 +44130,8 @@ do O O O
 § O O B-LEGISLACAO
 3º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 16 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -44168,7 +44141,8 @@ o O O O
 § O O B-LEGISLACAO
 6º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 209 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 RI/TCU O O I-LEGISLACAO
@@ -44201,8 +44175,7 @@ ações O O O
 que O O O
 entender O O O
 cabíveis. O O O
-" O O O
-
+” O O O
 III O O O
 O O O O
 Ministério O O B-ORGANIZACAO
@@ -44217,8 +44190,8 @@ o O O O
 entendimento O O O
 da O O O
 unidade O O O
-instrutiva. O O O
-
+instrutiva O O O
+. O O O
 
 DIREITO O O O
 PROCESSUAL O O O
@@ -46202,7 +46175,7 @@ autora O O O
 inicialmente O O O
 , O O O
 que O O O
-" O O O
+“ O O O
 ( O O O
 ... O O O
 ) O O O
@@ -46255,14 +46228,13 @@ todas O O O
 as O O O
 referidas O O O
 leis. O O O
-" O O O
-
+” O O O
 Salienta O O O
 , O O O
 nesse O O O
 rumo O O O
 , O O O
-" O O O
+“ O O O
 ( O O O
 ... O O O
 ) O O O
@@ -46318,8 +46290,7 @@ Orgânica O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Distrito O O I-LEGISLACAO
 Federal. O O I-LEGISLACAO
-" O O O
-
+” O O O
 Quanto O O O
 ao O O O
 tema O O O
@@ -46340,7 +46311,7 @@ no O O O
 sentido O O O
 de O O O
 que O O O
-" O O O
+“ O O O
 em O O O
 se O O O
 tratando O O O
@@ -46385,7 +46356,7 @@ do O O O
 diploma O O O
 legal O O O
 impugnado. O O O
-" O O O
+” O O O
 ( O O O
 Conselho O O B-ORGANIZACAO
 Especial O O I-ORGANIZACAO
@@ -46393,8 +46364,10 @@ Especial O O I-ORGANIZACAO
 ADI O O B-JURISPRUDENCIA
 20040020088196 O O I-JURISPRUDENCIA
 , O O O
-Rel. O O O
-Des. O O O
+Rel O O O
+. O O O
+Des O O O
+. O O O
 Romão O O B-PESSOA
 C. O O I-PESSOA
 Oliveira O O I-PESSOA
@@ -46402,11 +46375,13 @@ Oliveira O O I-PESSOA
 DJ O O O
 13/09/2007 O O B-TEMPO
 , O O O
-Reg. O O O
-Ac. O O O
+Reg O O O
+. O O O
+Ac O O O
+. O O O
 275666 O O O
-). O O O
-
+) O O O
+. O O O
 
 Conforme O O O
 andamento O O O
@@ -46516,7 +46491,8 @@ MEDIDAS O O O
 INTEGRADAS O O O
 DE O O O
 PREVENÇÃO O O O
-Art. O O O
+Art O O O
+. O O O
 8o O O O
 A O O O
 política O O O
@@ -46596,7 +46572,6 @@ trabalho O O O
 e O O O
 habitação O O O
 ; O O O
-
 II O O O
 - O O O
 a O O O
@@ -46662,7 +46637,6 @@ das O O O
 medidas O O O
 adotadas O O O
 ; O O O
-
 III O O O
 - O O O
 o O O O
@@ -46711,27 +46685,29 @@ no O O O
 inciso O O B-LEGISLACAO
 III O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 1o O O I-LEGISLACAO
 , O O I-LEGISLACAO
 no O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 IV O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 3o O O I-LEGISLACAO
 e O O I-LEGISLACAO
 no O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 IV O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 221 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Constituição O O I-LEGISLACAO
 Federal O O I-LEGISLACAO
 ; O O O
-
 IV O O O
 - O O O
 a O O O
@@ -46753,7 +46729,6 @@ Atendimento O O O
 à O O O
 Mulher O O O
 ; O O O
-
 V O O O
 - O O O
 a O O O
@@ -46801,7 +46776,6 @@ humanos O O O
 das O O O
 mulheres O O O
 ; O O O
-
 VI O O O
 - O O O
 a O O O
@@ -46849,7 +46823,6 @@ contra O O O
 a O O O
 mulher O O O
 ; O O O
-
 VII O O O
 - O O O
 a O O O
@@ -46893,7 +46866,6 @@ raça O O O
 ou O O O
 etnia O O O
 ; O O O
-
 VIII O O O
 - O O O
 a O O O
@@ -46924,7 +46896,6 @@ raça O O O
 ou O O O
 etnia O O O
 ; O O O
-
 IX O O O
 - O O O
 o O O O
@@ -46967,8 +46938,8 @@ e O O O
 familiar O O O
 contra O O O
 a O O O
-mulher. O O O
-
+mulher O O O
+. O O O
 
 311 O O B-LEGISLACAO
 e O O I-LEGISLACAO
@@ -52564,7 +52535,6 @@ Contas O O I-ORGANIZACAO
 da O O I-ORGANIZACAO
 União O O I-ORGANIZACAO
 ; O O O
-
 c O O O
 ) O O O
 O O O O
@@ -52638,7 +52608,6 @@ gestão O O O
 do O O O
 período O O O
 ; O O O
-
 d O O O
 ) O O O
 No O O O
@@ -52671,7 +52640,6 @@ criminal O O O
 e O O O
 administrativa O O O
 ; O O O
-
 e O O O
 ) O O O
 A O O O
@@ -52710,7 +52678,6 @@ do O O O
 homem O O O
 médio O O O
 ; O O O
-
 f O O O
 ) O O O
 A O O O
@@ -52777,7 +52744,6 @@ imprudência O O O
 ou O O O
 imperícia O O O
 ; O O O
-
 g O O O
 ) O O O
 A O O O
@@ -52818,13 +52784,13 @@ débitos O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 59 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.383/1991 O O I-LEGISLACAO
 ; O O O
-
 h O O O
 ) O O O
 O O O O
@@ -52862,8 +52828,8 @@ irregular O O O
 não O O O
 teria O O O
 sido O O O
-realizada. O O O
-
+realizada O O O
+. O O O
 
 ( O O O
 FI O O O
@@ -53462,7 +53428,7 @@ no O O O
 da O O O
 Serur O O B-ORGANIZACAO
 : O O O
-" O O O
+“ O O O
 INTRODUÇÃO O O O
 Trata-se O O O
 de O O O
@@ -53533,7 +53499,6 @@ e O O O
 dar-lhe O O O
 provimento O O O
 ; O O O
-
 9.2. O O O
 rejeitar O O O
 as O O O
@@ -53555,13 +53520,13 @@ contas O O O
 com O O O
 fulcro O O O
 nos O O O
-arts. O O B-LEGISLACAO
+arts O O B-LEGISLACAO
+. O O I-LEGISLACAO
 1º O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 I O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 16 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -53572,12 +53537,10 @@ alínea O O I-LEGISLACAO
 c O O I-LEGISLACAO
 '' O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 19 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 caput O O I-LEGISLACAO
 ; O O I-LEGISLACAO
-
 e O O I-LEGISLACAO
 23 O O I-LEGISLACAO
 , O O I-LEGISLACAO
@@ -53633,7 +53596,8 @@ perante O O O
 o O O O
 Tribunal O O O
 ( O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 214 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -53759,16 +53723,17 @@ perante O O O
 o O O O
 Tribunal O O O
 ( O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 214 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
 III O O I-LEGISLACAO
 , O O I-LEGISLACAO
 alínea O O I-LEGISLACAO
-" O O I-LEGISLACAO
+“ O O I-LEGISLACAO
 a O O I-LEGISLACAO
-" O O I-LEGISLACAO
+” O O I-LEGISLACAO
 , O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
@@ -53812,7 +53777,6 @@ do O O O
 prazo O O O
 estipulado O O O
 ; O O O
-
 9.4. O O O
 julgar O O O
 regulares O O O
@@ -53883,14 +53847,14 @@ da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
 8.443/1992 O O I-LEGISLACAO
 ; O O O
-
 9.5. O O O
 autorizar O O O
 , O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 28 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 inciso O O I-LEGISLACAO
@@ -53912,7 +53876,6 @@ atendidas O O O
 as O O O
 notificações O O O
 ; O O O
-
 9.6. O O O
 autorizar O O O
 o O O O
@@ -53949,7 +53912,8 @@ judicial O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 26 O O I-LEGISLACAO
 da O O I-LEGISLACAO
 Lei O O I-LEGISLACAO
@@ -53957,13 +53921,13 @@ Lei O O I-LEGISLACAO
 , O O O
 c/c O O O
 o O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 217 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
 Interno O O I-LEGISLACAO
 ; O O O
-
 9.6.1. O O O
 fixar O O O
 o O O O
@@ -54008,7 +53972,6 @@ de O O O
 cada O O O
 parcela O O O
 ; O O O
-
 9.6.2. O O O
 alertar O O O
 aos O O O
@@ -54029,7 +53992,8 @@ devedor O O O
 nos O O O
 termos O O O
 do O O O
-art. O O B-LEGISLACAO
+art O O B-LEGISLACAO
+. O O I-LEGISLACAO
 26 O O I-LEGISLACAO
 , O O I-LEGISLACAO
 parágrafo O O I-LEGISLACAO
@@ -54040,13 +54004,13 @@ o O O I-LEGISLACAO
 § O O I-LEGISLACAO
 2º O O I-LEGISLACAO
 do O O I-LEGISLACAO
-art. O O I-LEGISLACAO
+art O O I-LEGISLACAO
+. O O I-LEGISLACAO
 217 O O I-LEGISLACAO
 do O O I-LEGISLACAO
 Regimento O O I-LEGISLACAO
 Interno O O I-LEGISLACAO
 ; O O O
-
 9.7. O O O
 dar O O O
 ciência O O O
@@ -54055,7 +54019,6 @@ decisão O O O
 aos O O O
 responsáveis O O O
 ; O O O
-
 9.8. O O O
 encaminhar O O O
 cópia O O O
@@ -54097,8 +54060,8 @@ processos O O O
 judiciais O O O
 2001.34.00.024796-9 O O B-JURISPRUDENCIA
 e O O O
-2003.34.00.044227-3. O O B-JURISPRUDENCIA
-
+2003.34.00.044227-3 O O B-JURISPRUDENCIA
+. O O O
 
 A O O O
 alegação O O O
