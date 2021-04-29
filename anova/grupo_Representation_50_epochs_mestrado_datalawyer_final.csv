@@ -1,3 +1,3 @@
 Representação,F-Score,Mínimo,Máximo,Desvio Padrão
-ELMo+GloVe,93.27%,92.97%,93.57%,0.43%
-ELMo+Word2Vec-jur,92.83%,92.66%,93.00%,0.24%
+ELMo+Word2Vec-jur,92.13%,91.95%,92.21%,0.12%
+ELMo+GloVe,92.02%,91.56%,92.48%,0.44%
