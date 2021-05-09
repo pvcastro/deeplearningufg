@@ -1,0 +1,8 @@
+processed 60358 tokens with 2389 phrases; found: 2408 phrases; correct: 2273.
+accuracy:  99.16%; precision:  94.39%; recall:  95.14%; FB1:  94.77
+   JURISPRUDENCIA: precision:  88.42%; recall:  92.91%; FB1:  90.61  311
+       LEGISLACAO: precision:  95.33%; recall:  96.51%; FB1:  95.92  493
+            LOCAL: precision:  94.61%; recall:  94.05%; FB1:  94.33  167
+      ORGANIZACAO: precision:  93.53%; recall:  93.53%; FB1:  93.53  696
+           PESSOA: precision:  96.47%; recall:  96.47%; FB1:  96.47  425
+            TEMPO: precision:  97.78%; recall:  97.48%; FB1:  97.63  316

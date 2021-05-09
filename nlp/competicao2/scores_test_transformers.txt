@@ -1,0 +1,76 @@
+processed 11239 tokens with 214 phrases; found: 680 phrases; correct: 0.
+accuracy:   0.12%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+                 : precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                -: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     .PROBATÓRIO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      000002/2016: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     0001543/2012: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      000414/2014: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      000458/2015: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      001090/2016: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      001515/2017: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      003701/2015: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      004142/2017: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      006787/2017: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      017625/1999: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      019172/2017: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      07.2016.6.1: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      08.2016.6.1: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                1: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+            1/TST: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+         120134-7: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+ 20.2012.404.7200: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+20.2017.7.03.0203/RS: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             215v: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+23.2017.7.08.0008: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+23.2017.7.08.0008/PA: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               29: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           49.201: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+49.2016.6.26.03591SP: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+55.2012.6.00.0000/DF: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+55.2012.6.00.0000IDF: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              650: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              683: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+74.2017.7.00.0000/RS: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+78.2016.7.00.0000/DF: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+80.2014.7.00.0000/MG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+81.2018.6.00.0000/DF: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               93: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+93.2017.6.13.0000/MG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+93.2017.7.01.0401/RJ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                A: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+   ADMINISTRATIVA: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+   APLICABILIDADE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           AgR-Al: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               Al: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                B: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                C: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+          CONDUTO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       DESEMPREGO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               DF: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                F: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     FERROVIÁRIO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+            Geral: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+                I: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+   JURISPRUDENCIA: precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+       LEGISLACAO: precision:   0.00%; recall:   0.00%; FB1:   0.00  192
+            LOCAL: precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+      ORGANIZACAO: precision:   0.00%; recall:   0.00%; FB1:   0.00  109
+            PARTE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               PC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           PESSOA: precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+      PROBATÓRIO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+ Procurador-Geral: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       REFEIÇÃO: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+            REspe: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+  RR-297.751/96.2: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+  RR-578.030/99.5: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       SERVIDORES: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     SISTEMÁTICA: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       Substituto: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+            TEMPO: precision:   0.00%; recall:   0.00%; FB1:   0.00  95
+              TSE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     conhecimento: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               la: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               me: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+               se: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
