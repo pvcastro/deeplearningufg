@@ -1,0 +1,69 @@
+[
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "learning_rate_scheduler",
+      "choices": ["slanted_triangular", "linear_with_warmup"]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "warmup_steps",
+      "choices": [50, 100, 500, 1000]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "weight_decay",
+      "choices": [0.0, 0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "weight_decay_ner",
+      "choices": [0.0, 0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "eps",
+      "choices": [1e-8, 1e-7, 1e-6]
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "grad_norm",
+      "low": 1.0,
+      "high": 5.0,
+      "step": 1.0
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "grad_clipping",
+      "choices": [0.0, 1.0]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "lr",
+      "choices": [1e-5, 2e-5, 3e-5, 4e-5, 5e-5]
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "lr_ner",
+      "low": 1e-4,
+      "high": 1e-3,
+      "log": true
+    }
+  }
+]

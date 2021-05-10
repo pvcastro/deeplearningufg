@@ -1,0 +1,8 @@
+{
+    "pruner": {
+        "type": "SuccessiveHalvingPruner",
+        "attributes": {
+            "min_resource": 3
+        }
+    }
+}
