@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONFIG_DIR=training_config/datalawyer/tune
+CONFIG_DIR=tune
 OUTPUT_DIR=$1
 N_TRIALS=$2
 BATCH_SIZE=$3
