@@ -55,9 +55,9 @@ local token_indexer = {
             "tokens": token_indexer
         }
     },
-    "train_data_path": "/media/discoD/repositorios/deeplearningufg/nlp/competicao2" + path + "train.conll",
-    "validation_data_path": "/media/discoD/repositorios/deeplearningufg/nlp/competicao2" + path + "dev.conll",
-    "test_data_path": "/media/discoD/repositorios/deeplearningufg/nlp/competicao2" + path + "dev.conll",
+    "train_data_path": ".." + path + "train.conll",
+    "validation_data_path": ".." + path + "dev.conll",
+    "test_data_path": ".." + path + "dev.conll",
     "evaluate_on_test": true,
     "model": {
         "type": "crf_tagger",
