@@ -1,0 +1,53 @@
+[
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "dropout",
+      "choices": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "weight_decay",
+      "choices": [0.0, 0.01, 0.1, 0.2, 0.3]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "weight_decay_ner",
+      "choices": [0.0, 0.01, 0.1, 0.2, 0.3]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "eps",
+      "choices": [1e-8, 1e-3]
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "grad_norm",
+      "low": 1.0,
+      "high": 5.0,
+      "step": 1.0
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "lr",
+      "choices": [1e-5, 2e-5, 3e-5, 4e-5, 5e-5]
+    }
+  },
+  {
+    "type": "categorical",
+    "attributes": {
+      "name": "lr_ner",
+      "choices": [1e-3, 2.5e-3, 5e-3, 7.5e-3, 1e-2]
+    }
+  }
+]

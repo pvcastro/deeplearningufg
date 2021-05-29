@@ -2,7 +2,13 @@
     "pruner": {
         "type": "SuccessiveHalvingPruner",
         "attributes": {
-            "min_resource": 3
+            "min_resource": 5
+        }
+    },
+    "sampler": {
+        "type": "TPESampler",
+        "attributes": {
+            "n_startup_trials": 50
         }
     }
 }

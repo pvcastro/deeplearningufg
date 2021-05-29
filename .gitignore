@@ -31,4 +31,7 @@ projeto/CHAVEFolha
 **/*.dict
 **/*.tgz
 
-
+/nlp/competicao2/submission*.*
+/nlp/competicao2/predictions*.txt
+/nlp/competicao2/scores*.txt
+/nlp/competicao2/*.log
